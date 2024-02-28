@@ -1,0 +1,160 @@
+2024-02-13 14:49:47.679 +08:00 [INF] Starting web application
+2024-02-13 14:49:47.954 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 14:49:47.957 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 14:49:47.962 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 14:49:47.963 +08:00 [INF] Hosting environment: Development
+2024-02-13 14:49:47.964 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 14:49:48.610 +08:00 [INF] HTTP GET / responded 200 in 141.4519 ms
+2024-02-13 14:51:34.874 +08:00 [INF] Starting web application
+2024-02-13 14:51:35.149 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 14:51:35.154 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 14:51:35.158 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 14:51:35.159 +08:00 [INF] Hosting environment: Development
+2024-02-13 14:51:35.160 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 14:51:35.671 +08:00 [INF] Starting web application
+2024-02-13 14:51:35.791 +08:00 [INF] HTTP GET / responded 200 in 160.3636 ms
+2024-02-13 14:51:51.108 +08:00 [INF] Starting web application
+2024-02-13 14:51:51.436 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 14:51:51.440 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 14:51:51.443 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 14:51:51.444 +08:00 [INF] Hosting environment: Development
+2024-02-13 14:51:51.444 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 14:51:51.939 +08:00 [INF] Starting Controller
+2024-02-13 14:51:52.062 +08:00 [INF] HTTP GET / responded 200 in 175.8680 ms
+2024-02-13 14:52:12.660 +08:00 [INF] Starting web application
+2024-02-13 14:52:12.943 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 14:52:12.947 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 14:52:12.949 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 14:52:12.951 +08:00 [INF] Hosting environment: Development
+2024-02-13 14:52:12.952 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 14:52:13.660 +08:00 [ERR] Starting Controller
+2024-02-13 14:52:13.788 +08:00 [INF] HTTP GET / responded 200 in 170.5628 ms
+2024-02-13 15:36:54.193 +08:00 [INF] Starting web application
+2024-02-13 15:36:54.514 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:36:54.517 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:36:54.521 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:36:54.524 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:36:54.524 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:36:55.154 +08:00 [ERR] Starting Controller
+2024-02-13 15:36:55.283 +08:00 [INF] HTTP GET / responded 200 in 163.6813 ms
+2024-02-13 15:36:55.319 +08:00 [INF] HTTP GET /... responded 404 in 2.5894 ms
+2024-02-13 15:40:37.194 +08:00 [INF] Starting web application
+2024-02-13 15:40:37.575 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:40:37.579 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:40:37.584 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:40:37.585 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:40:37.586 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:40:38.028 +08:00 [ERR] Starting Controller
+2024-02-13 15:40:38.122 +08:00 [INF] HTTP GET / responded 200 in 134.3820 ms
+2024-02-13 15:40:38.145 +08:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-02-13 15:40:38.164 +08:00 [INF] HTTP GET /... responded 404 in 1.7276 ms
+2024-02-13 15:40:39.673 +08:00 [ERR] Starting Controller
+2024-02-13 15:40:39.680 +08:00 [INF] HTTP GET / responded 200 in 7.5506 ms
+2024-02-13 15:40:39.685 +08:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-02-13 15:40:39.694 +08:00 [INF] HTTP GET /... responded 404 in 0.6920 ms
+2024-02-13 15:50:58.569 +08:00 [INF] Starting web application
+2024-02-13 15:50:58.849 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:50:58.853 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:50:58.856 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:50:58.857 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:50:58.857 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:51:00.672 +08:00 [ERR] Starting Controller
+2024-02-13 15:51:00.791 +08:00 [INF] HTTP GET / responded 200 in 154.0578 ms
+2024-02-13 15:51:00.828 +08:00 [INF] HTTP GET /... responded 404 in 1.1402 ms
+2024-02-13 15:52:27.711 +08:00 [INF] Starting web application
+2024-02-13 15:52:28.021 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:52:28.025 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:52:28.029 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:52:28.030 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:52:28.030 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:52:28.621 +08:00 [ERR] Starting Controller
+2024-02-13 15:52:28.785 +08:00 [INF] HTTP GET / responded 200 in 201.3576 ms
+2024-02-13 15:52:28.829 +08:00 [INF] HTTP GET /... responded 404 in 4.5525 ms
+2024-02-13 15:52:29.740 +08:00 [ERR] Starting Controller
+2024-02-13 15:52:29.747 +08:00 [INF] HTTP GET / responded 200 in 6.9442 ms
+2024-02-13 15:52:29.773 +08:00 [INF] HTTP GET /... responded 404 in 1.9661 ms
+2024-02-13 15:52:54.349 +08:00 [INF] Starting web application
+2024-02-13 15:52:54.651 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:52:54.655 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:52:54.658 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:52:54.659 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:52:54.661 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:52:55.172 +08:00 [ERR] Starting Controller
+2024-02-13 15:52:55.302 +08:00 [INF] HTTP GET / responded 200 in 167.4733 ms
+2024-02-13 15:52:55.343 +08:00 [INF] HTTP GET /... responded 404 in 1.5261 ms
+2024-02-13 15:53:28.522 +08:00 [INF] Starting web application
+2024-02-13 15:53:28.806 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:53:28.811 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:53:28.814 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:53:28.816 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:53:28.816 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:53:29.297 +08:00 [ERR] Starting Controller
+2024-02-13 15:53:29.407 +08:00 [INF] HTTP GET / responded 200 in 148.4978 ms
+2024-02-13 15:53:29.449 +08:00 [INF] HTTP GET /... responded 404 in 2.1710 ms
+2024-02-13 15:53:38.488 +08:00 [INF] Starting web application
+2024-02-13 15:53:38.785 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:53:38.789 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:53:38.794 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:53:38.796 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:53:38.796 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:53:39.304 +08:00 [ERR] Starting Controller
+2024-02-13 15:53:39.431 +08:00 [INF] HTTP GET / responded 200 in 169.5253 ms
+2024-02-13 15:53:39.471 +08:00 [INF] HTTP GET /... responded 404 in 1.3291 ms
+2024-02-13 15:55:13.064 +08:00 [INF] Starting web application
+2024-02-13 15:55:13.397 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 15:55:13.401 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 15:55:13.404 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 15:55:13.405 +08:00 [INF] Hosting environment: Development
+2024-02-13 15:55:13.406 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 15:55:13.762 +08:00 [ERR] Starting Controller
+2024-02-13 15:55:13.880 +08:00 [INF] HTTP GET / responded 200 in 155.9503 ms
+2024-02-13 15:55:13.917 +08:00 [INF] HTTP GET /... responded 404 in 1.0146 ms
+2024-02-13 16:53:58.348 +08:00 [ERR] Starting Controller
+2024-02-13 16:53:58.370 +08:00 [INF] HTTP GET / responded 200 in 25.9144 ms
+2024-02-13 16:53:58.393 +08:00 [INF] HTTP GET /... responded 404 in 1.2591 ms
+2024-02-13 16:53:59.157 +08:00 [ERR] Starting Controller
+2024-02-13 16:53:59.162 +08:00 [INF] HTTP GET / responded 200 in 5.7134 ms
+2024-02-13 16:53:59.190 +08:00 [INF] HTTP GET /... responded 404 in 0.1682 ms
+2024-02-13 16:54:06.974 +08:00 [ERR] Starting Controller
+2024-02-13 16:54:06.979 +08:00 [INF] HTTP GET / responded 200 in 4.8670 ms
+2024-02-13 16:54:06.998 +08:00 [INF] HTTP GET /... responded 404 in 0.0310 ms
+2024-02-13 16:54:07.633 +08:00 [ERR] Starting Controller
+2024-02-13 16:54:07.638 +08:00 [INF] HTTP GET / responded 200 in 5.3975 ms
+2024-02-13 16:54:07.659 +08:00 [INF] HTTP GET /... responded 404 in 0.0420 ms
+2024-02-13 16:54:15.560 +08:00 [INF] Starting web application
+2024-02-13 16:54:15.864 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 16:54:15.867 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 16:54:15.871 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 16:54:15.873 +08:00 [INF] Hosting environment: Development
+2024-02-13 16:54:15.874 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 16:54:16.359 +08:00 [ERR] Starting Controller
+2024-02-13 16:54:16.487 +08:00 [INF] HTTP GET / responded 200 in 166.5319 ms
+2024-02-13 16:54:16.532 +08:00 [INF] HTTP GET /... responded 404 in 1.5128 ms
+2024-02-13 16:56:28.063 +08:00 [INF] Starting web application
+2024-02-13 16:56:28.379 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 16:56:28.383 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 16:56:28.386 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 16:56:28.387 +08:00 [INF] Hosting environment: Development
+2024-02-13 16:56:28.387 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 16:56:28.854 +08:00 [ERR] Starting Controller
+2024-02-13 16:56:28.974 +08:00 [INF] HTTP GET / responded 200 in 155.6998 ms
+2024-02-13 16:56:29.017 +08:00 [INF] HTTP GET /... responded 404 in 1.6879 ms
+2024-02-13 16:57:15.302 +08:00 [ERR] Starting Controller
+2024-02-13 16:57:15.315 +08:00 [INF] HTTP GET / responded 200 in 13.7634 ms
+2024-02-13 16:57:15.338 +08:00 [INF] HTTP GET /... responded 404 in 1.3609 ms
+2024-02-13 16:57:26.742 +08:00 [ERR] Starting Controller
+2024-02-13 16:57:26.748 +08:00 [INF] HTTP GET / responded 200 in 5.6325 ms
+2024-02-13 16:57:26.775 +08:00 [INF] HTTP GET /... responded 404 in 0.0268 ms
+2024-02-13 16:57:30.680 +08:00 [INF] Starting web application
+2024-02-13 16:57:31.658 +08:00 [INF] Starting web application
+2024-02-13 16:57:31.994 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-13 16:57:31.998 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-13 16:57:32.002 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 16:57:32.003 +08:00 [INF] Hosting environment: Development
+2024-02-13 16:57:32.003 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-13 16:57:32.278 +08:00 [ERR] Starting Controller
+2024-02-13 16:57:32.385 +08:00 [INF] HTTP GET / responded 200 in 145.1904 ms
+2024-02-13 16:57:32.427 +08:00 [INF] HTTP GET /... responded 404 in 2.1347 ms
+2024-02-13 16:57:32.545 +08:00 [ERR] Starting Controller
+2024-02-13 16:57:32.567 +08:00 [INF] HTTP GET / responded 200 in 22.5186 ms
+2024-02-13 16:57:32.593 +08:00 [INF] HTTP GET /... responded 404 in 1.4533 ms

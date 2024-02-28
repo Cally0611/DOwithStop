@@ -1,0 +1,184 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /*margin-bottom: 60px;*/
+  background-color : black;
+}
+
+.cardcontainer {
+    background-color: black;
+    border: double #2f2f2f;
+    border-width: 4px;
+    width: 60rem;
+    height: 33.67rem;
+}
+
+
+.cardcontainer-row2 {
+    border: double #2f2f2f;
+    border-width: 5px;
+    border-top: none;
+    background-color: black;
+    width: 60rem;
+    height: 33.67rem;
+}
+
+.cardcontainer-row3 {
+    border: double #2f2f2f;
+    border-width: 5px;
+    border-top: none;
+    background-color: black;
+    width: 60rem;
+    height: 33.67rem;
+}
+.cardcontainer-row4 {
+    border: double#2f2f2f;
+    border-width: 5px;
+    border-top: none;
+    background-color: black;
+    width: 60rem;
+    height: 33.67rem;
+}
+
+.actualtext {
+    color: white;
+    font-size: 12rem;
+}
+
+.actualtext-ontarget{
+    color : green;
+}
+.actualtext-offtarget {
+    color: red;
+}
+
+.actualtext-nojob {
+    color: grey;
+    font-size: 12rem;
+}
+.slashtext {
+    font-size: 12rem;
+    color: grey;
+}
+.targettext {
+    color: white;
+    font-size: 12rem;
+}
+
+.targettext-nojob {
+    color: grey;
+}
+
+.custcardbody {
+    height: 20rem;
+    text-align: center;
+    background-color: black;
+   
+}
+.parentcard {
+    width: 100%;
+    height: 100%;
+
+}
+.pagefooter {
+    background-color: black;
+}
+.card-header {
+    font-size: 40px;
+    height: 6rem;
+    color: white;
+    text-align: center;
+}
+
+.gdLogoCls {
+    /* background: url(../images/gdLogo.PNG) no-repeat center;*/
+    background: url(../images/GD_Logo_GieseckeDevrient_neg.jpg) no-repeat center;
+    /*width: 500px;
+    height: 200;*/
+   /* position: absolute;*/
+    /*left: -30px;
+    background-size: 300%;*/
+  
+    /*right: -45px;*/
+}
+
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+    
+
+.flipCard {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/*.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}*/
+
+.flip-card-back {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+
+.cvsstyle {
+    position: relative;
+/*    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(97 97 97) 131%);*/
+    background : transparent;
+    height: 40vh;
+    width: 60vw;
+}
+​
+
+.timecontainer {
+    text-align: center;
+    background-color :blue;
+    border: 0px solid;
+    font-size: 85px;
+    
+    font-family: Arial;
+}
+
+.mchnorundetails {
+        text-align: center;
+    color: white;
+    font-size: 3rem;
+   /*   position: fixed;
+
+    top: 110%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;*/
+}

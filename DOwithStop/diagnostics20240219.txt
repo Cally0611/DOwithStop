@@ -1,0 +1,604 @@
+2024-02-19 08:53:58.476 +08:00 [INF] Starting web application
+2024-02-19 08:53:58.942 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:53:58.947 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:53:58.953 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:53:58.954 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:53:58.955 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:53:59.773 +08:00 [ERR] Starting Controller
+2024-02-19 08:53:59.985 +08:00 [INF] HTTP GET / responded 200 in 272.0986 ms
+2024-02-19 08:54:02.837 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2707.0426 ms
+2024-02-19 08:54:28.832 +08:00 [INF] Starting web application
+2024-02-19 08:54:29.238 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:54:29.241 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:54:29.245 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:54:29.246 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:54:29.247 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:54:29.599 +08:00 [ERR] Starting Controller
+2024-02-19 08:54:29.710 +08:00 [INF] HTTP GET / responded 200 in 152.2289 ms
+2024-02-19 08:54:31.748 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1963.3957 ms
+2024-02-19 08:55:26.695 +08:00 [INF] Starting web application
+2024-02-19 08:55:27.025 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:55:27.028 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:55:27.031 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:55:27.032 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:55:27.033 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:55:27.500 +08:00 [ERR] Starting Controller
+2024-02-19 08:55:27.611 +08:00 [INF] HTTP GET / responded 200 in 155.8502 ms
+2024-02-19 08:55:29.831 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2143.4400 ms
+2024-02-19 08:55:39.247 +08:00 [INF] Starting web application
+2024-02-19 08:55:39.555 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:55:39.558 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:55:39.562 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:55:39.563 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:55:39.563 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:55:40.158 +08:00 [ERR] Starting Controller
+2024-02-19 08:55:40.264 +08:00 [INF] HTTP GET / responded 200 in 150.7572 ms
+2024-02-19 08:55:42.441 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2124.0409 ms
+2024-02-19 08:55:58.142 +08:00 [INF] Starting web application
+2024-02-19 08:55:58.470 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:55:58.474 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:55:58.478 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:55:58.478 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:55:58.479 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:55:59.045 +08:00 [ERR] Starting Controller
+2024-02-19 08:55:59.141 +08:00 [INF] HTTP GET / responded 200 in 137.0682 ms
+2024-02-19 08:56:01.019 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1826.8951 ms
+2024-02-19 08:56:10.573 +08:00 [INF] Starting web application
+2024-02-19 08:56:10.914 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:56:10.917 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:56:10.921 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:56:10.921 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:56:10.922 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:56:11.470 +08:00 [ERR] Starting Controller
+2024-02-19 08:56:11.567 +08:00 [INF] HTTP GET / responded 200 in 140.5675 ms
+2024-02-19 08:56:13.579 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1963.3385 ms
+2024-02-19 08:56:19.386 +08:00 [ERR] Starting Controller
+2024-02-19 08:56:19.404 +08:00 [INF] HTTP GET / responded 200 in 18.3566 ms
+2024-02-19 08:56:20.180 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 643.4347 ms
+2024-02-19 08:56:28.770 +08:00 [INF] Starting web application
+2024-02-19 08:56:29.087 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:56:29.090 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:56:29.094 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:56:29.095 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:56:29.095 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:56:29.645 +08:00 [ERR] Starting Controller
+2024-02-19 08:56:29.743 +08:00 [INF] HTTP GET / responded 200 in 137.1299 ms
+2024-02-19 08:56:31.769 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1977.9634 ms
+2024-02-19 08:56:39.197 +08:00 [INF] Starting web application
+2024-02-19 08:56:39.551 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:56:39.554 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:56:39.557 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:56:39.558 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:56:39.558 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:56:40.036 +08:00 [ERR] Starting Controller
+2024-02-19 08:56:40.135 +08:00 [INF] HTTP GET / responded 200 in 141.8804 ms
+2024-02-19 08:56:42.200 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2020.5606 ms
+2024-02-19 08:57:03.166 +08:00 [INF] Starting web application
+2024-02-19 08:57:03.472 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:57:03.475 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:57:03.478 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:57:03.479 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:57:03.480 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:57:04.075 +08:00 [ERR] Starting Controller
+2024-02-19 08:57:04.172 +08:00 [INF] HTTP GET / responded 200 in 134.7092 ms
+2024-02-19 08:57:06.239 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2004.9460 ms
+2024-02-19 08:57:27.517 +08:00 [INF] Starting web application
+2024-02-19 08:57:27.818 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:57:27.822 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:57:27.825 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:57:27.826 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:57:27.827 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:57:28.315 +08:00 [ERR] Starting Controller
+2024-02-19 08:57:28.439 +08:00 [INF] HTTP GET / responded 200 in 166.3342 ms
+2024-02-19 08:57:30.481 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1958.0305 ms
+2024-02-19 08:57:40.065 +08:00 [INF] Starting web application
+2024-02-19 08:57:40.559 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:57:40.564 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:57:40.570 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:57:40.572 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:57:40.572 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:57:40.961 +08:00 [ERR] Starting Controller
+2024-02-19 08:57:41.152 +08:00 [INF] HTTP GET / responded 200 in 309.4183 ms
+2024-02-19 08:57:44.328 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 3076.3624 ms
+2024-02-19 08:57:51.197 +08:00 [INF] Starting web application
+2024-02-19 08:57:51.822 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 08:57:51.828 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 08:57:51.834 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 08:57:51.836 +08:00 [INF] Hosting environment: Development
+2024-02-19 08:57:51.837 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 08:57:52.161 +08:00 [ERR] Starting Controller
+2024-02-19 08:57:52.359 +08:00 [INF] HTTP GET / responded 200 in 273.2166 ms
+2024-02-19 08:57:56.167 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 3701.9179 ms
+2024-02-19 09:00:28.683 +08:00 [ERR] Starting Controller
+2024-02-19 09:00:28.727 +08:00 [INF] HTTP GET / responded 200 in 44.5926 ms
+2024-02-19 09:00:29.439 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 658.3576 ms
+2024-02-19 09:01:16.215 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:17.109 +08:00 [INF] Starting web application
+2024-02-19 09:01:17.441 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:01:17.445 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:01:17.448 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:01:17.449 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:01:17.449 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:01:17.765 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:17.867 +08:00 [INF] HTTP GET / responded 200 in 139.9816 ms
+2024-02-19 09:01:17.881 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:17.892 +08:00 [INF] HTTP GET / responded 200 in 10.6532 ms
+2024-02-19 09:01:19.819 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1874.7367 ms
+2024-02-19 09:01:40.742 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:41.752 +08:00 [INF] Starting web application
+2024-02-19 09:01:42.086 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:01:42.090 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:01:42.094 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:01:42.097 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:01:42.097 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:01:42.306 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:42.406 +08:00 [ERR] Starting Controller
+2024-02-19 09:01:42.420 +08:00 [INF] HTTP GET / responded 200 in 13.3223 ms
+2024-02-19 09:01:42.420 +08:00 [INF] HTTP GET / responded 200 in 151.7530 ms
+2024-02-19 09:01:44.752 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2145.4872 ms
+2024-02-19 09:02:16.991 +08:00 [INF] Starting web application
+2024-02-19 09:02:17.281 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:02:17.286 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:02:17.290 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:02:17.292 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:02:17.292 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:02:17.786 +08:00 [ERR] Starting Controller
+2024-02-19 09:02:17.911 +08:00 [INF] HTTP GET / responded 200 in 172.9738 ms
+2024-02-19 09:02:19.888 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1863.2348 ms
+2024-02-19 09:03:47.637 +08:00 [INF] Starting web application
+2024-02-19 09:03:47.959 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:03:47.966 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:03:47.978 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:03:47.980 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:03:47.984 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:03:48.429 +08:00 [ERR] Starting Controller
+2024-02-19 09:03:48.536 +08:00 [INF] HTTP GET / responded 200 in 156.4788 ms
+2024-02-19 09:03:50.686 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2064.6115 ms
+2024-02-19 09:04:41.278 +08:00 [ERR] Starting Controller
+2024-02-19 09:04:42.183 +08:00 [INF] Starting web application
+2024-02-19 09:04:42.632 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:04:42.636 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:04:42.639 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:04:42.640 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:04:42.641 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:04:42.819 +08:00 [ERR] Starting Controller
+2024-02-19 09:04:42.932 +08:00 [INF] HTTP GET / responded 200 in 151.3614 ms
+2024-02-19 09:04:42.937 +08:00 [ERR] Starting Controller
+2024-02-19 09:04:42.944 +08:00 [INF] HTTP GET / responded 200 in 7.7942 ms
+2024-02-19 09:04:44.978 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1958.1325 ms
+2024-02-19 09:05:17.622 +08:00 [ERR] Starting Controller
+2024-02-19 09:05:18.509 +08:00 [INF] Starting web application
+2024-02-19 09:05:18.817 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:05:18.821 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:05:18.825 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:05:18.826 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:05:18.826 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:05:19.186 +08:00 [ERR] Starting Controller
+2024-02-19 09:05:19.280 +08:00 [ERR] Starting Controller
+2024-02-19 09:05:19.315 +08:00 [INF] HTTP GET / responded 200 in 171.7059 ms
+2024-02-19 09:05:19.315 +08:00 [INF] HTTP GET / responded 200 in 34.0973 ms
+2024-02-19 09:05:21.782 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2324.6950 ms
+2024-02-19 09:05:43.994 +08:00 [ERR] Starting Controller
+2024-02-19 09:05:44.897 +08:00 [INF] Starting web application
+2024-02-19 09:05:45.208 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:05:45.213 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:05:45.216 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:05:45.217 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:05:45.217 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:05:45.508 +08:00 [ERR] Starting Controller
+2024-02-19 09:05:45.622 +08:00 [INF] HTTP GET / responded 200 in 155.9229 ms
+2024-02-19 09:05:48.022 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2259.8233 ms
+2024-02-19 09:06:47.114 +08:00 [INF] Starting web application
+2024-02-19 09:06:47.418 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:06:47.422 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:06:47.426 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:06:47.428 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:06:47.429 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:06:48.071 +08:00 [ERR] Starting Controller
+2024-02-19 09:06:48.178 +08:00 [INF] HTTP GET / responded 200 in 152.3606 ms
+2024-02-19 09:06:50.092 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1817.7106 ms
+2024-02-19 09:06:53.696 +08:00 [ERR] Starting Controller
+2024-02-19 09:06:53.707 +08:00 [INF] HTTP GET / responded 200 in 11.2745 ms
+2024-02-19 09:06:54.446 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 682.6428 ms
+2024-02-19 09:08:34.969 +08:00 [INF] Starting web application
+2024-02-19 09:08:35.262 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:08:35.266 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:08:35.269 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:08:35.270 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:08:35.271 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:08:35.898 +08:00 [ERR] Starting Controller
+2024-02-19 09:08:36.011 +08:00 [INF] HTTP GET / responded 200 in 152.0671 ms
+2024-02-19 09:08:37.953 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1874.0417 ms
+2024-02-19 09:12:50.862 +08:00 [ERR] Starting Controller
+2024-02-19 09:12:51.762 +08:00 [INF] Starting web application
+2024-02-19 09:12:52.068 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:12:52.072 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:12:52.075 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:12:52.076 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:12:52.077 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:12:52.357 +08:00 [ERR] Starting Controller
+2024-02-19 09:12:52.466 +08:00 [INF] HTTP GET / responded 200 in 150.3774 ms
+2024-02-19 09:13:12.983 +08:00 [ERR] Starting Controller
+2024-02-19 09:13:13.923 +08:00 [INF] Starting web application
+2024-02-19 09:13:14.304 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:13:14.308 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:13:14.311 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:13:14.313 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:13:14.314 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:13:14.477 +08:00 [ERR] Starting Controller
+2024-02-19 09:13:14.588 +08:00 [INF] HTTP GET / responded 200 in 154.0401 ms
+2024-02-19 09:13:18.209 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1459.9048 ms
+2024-02-19 09:13:18.209 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2438.6415 ms
+2024-02-19 09:13:18.308 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 556.4440 ms
+2024-02-19 09:13:19.483 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 729.2174 ms
+2024-02-19 09:13:20.474 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 721.6657 ms
+2024-02-19 09:13:21.456 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 704.6402 ms
+2024-02-19 09:13:22.272 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 521.5001 ms
+2024-02-19 09:13:23.364 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 614.3326 ms
+2024-02-19 09:13:24.406 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 649.4579 ms
+2024-02-19 09:13:25.424 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 666.6205 ms
+2024-02-19 09:13:26.341 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 579.8134 ms
+2024-02-19 09:13:27.332 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 580.5003 ms
+2024-02-19 09:13:28.317 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 554.5124 ms
+2024-02-19 09:13:29.251 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 498.0557 ms
+2024-02-19 09:13:30.441 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 672.5948 ms
+2024-02-19 09:13:31.421 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 668.4570 ms
+2024-02-19 09:13:32.391 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 641.3388 ms
+2024-02-19 09:13:33.445 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 692.8827 ms
+2024-02-19 09:13:34.348 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 583.4081 ms
+2024-02-19 09:13:35.516 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 762.2784 ms
+2024-02-19 09:13:36.526 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 758.6866 ms
+2024-02-19 09:13:37.514 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 753.0503 ms
+2024-02-19 09:13:38.386 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 624.6024 ms
+2024-02-19 09:13:39.343 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 592.0700 ms
+2024-02-19 09:13:40.437 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 676.3558 ms
+2024-02-19 09:13:41.383 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 630.6997 ms
+2024-02-19 09:13:42.379 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 623.9438 ms
+2024-02-19 09:13:43.372 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 617.4256 ms
+2024-02-19 09:13:44.349 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 599.4399 ms
+2024-02-19 09:13:45.464 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 707.3187 ms
+2024-02-19 09:13:46.265 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 502.0590 ms
+2024-02-19 09:13:47.428 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 675.4450 ms
+2024-02-19 09:13:48.556 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 647.1864 ms
+2024-02-19 09:13:49.622 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 715.7229 ms
+2024-02-19 09:13:50.603 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 701.1397 ms
+2024-02-19 09:13:51.450 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 551.8257 ms
+2024-02-19 09:13:52.648 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 745.0745 ms
+2024-02-19 09:13:53.578 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 683.6821 ms
+2024-02-19 09:13:54.416 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 509.1002 ms
+2024-02-19 09:13:55.421 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 514.6348 ms
+2024-02-19 09:13:56.573 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 666.9073 ms
+2024-02-19 09:13:57.583 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 676.2250 ms
+2024-02-19 09:13:58.497 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 602.9465 ms
+2024-02-19 09:13:59.464 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 564.9656 ms
+2024-02-19 09:14:00.461 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 568.0203 ms
+2024-02-19 09:14:01.571 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 668.2762 ms
+2024-02-19 09:14:02.430 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 524.9196 ms
+2024-02-19 09:14:03.507 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 599.3219 ms
+2024-02-19 09:14:04.544 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 637.0821 ms
+2024-02-19 09:14:05.501 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 598.3463 ms
+2024-02-19 09:14:06.516 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 612.3380 ms
+2024-02-19 09:14:07.484 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 576.2142 ms
+2024-02-19 09:14:08.542 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 638.6448 ms
+2024-02-19 09:14:09.497 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 602.9146 ms
+2024-02-19 09:14:10.572 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 670.4126 ms
+2024-02-19 09:14:11.588 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 684.9941 ms
+2024-02-19 09:14:12.515 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 617.2371 ms
+2024-02-19 09:14:13.470 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 564.2608 ms
+2024-02-19 09:14:14.554 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 660.5464 ms
+2024-02-19 09:14:15.465 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 569.1025 ms
+2024-02-19 09:14:16.607 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 709.0236 ms
+2024-02-19 09:14:17.524 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 617.2095 ms
+2024-02-19 09:14:18.604 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 699.1052 ms
+2024-02-19 09:14:19.553 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 653.9912 ms
+2024-02-19 09:14:20.489 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 594.7596 ms
+2024-02-19 09:14:21.559 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 652.4212 ms
+2024-02-19 09:14:22.563 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 660.2451 ms
+2024-02-19 09:14:23.501 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 608.7874 ms
+2024-02-19 09:14:24.571 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 671.6750 ms
+2024-02-19 09:14:25.526 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 633.9769 ms
+2024-02-19 09:14:26.635 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 727.8843 ms
+2024-02-19 09:14:27.612 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 710.5533 ms
+2024-02-19 09:14:28.601 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 690.9155 ms
+2024-02-19 09:14:28.775 +08:00 [ERR] Starting Controller
+2024-02-19 09:14:29.660 +08:00 [INF] Starting web application
+2024-02-19 09:14:29.968 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:14:29.972 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:14:29.976 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:14:29.977 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:14:29.978 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:14:30.162 +08:00 [ERR] Starting Controller
+2024-02-19 09:14:30.261 +08:00 [INF] HTTP GET / responded 200 in 133.1732 ms
+2024-02-19 09:14:32.164 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2045.3246 ms
+2024-02-19 09:14:32.444 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 535.4681 ms
+2024-02-19 09:14:33.554 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 653.6593 ms
+2024-02-19 09:14:34.614 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 703.1902 ms
+2024-02-19 09:14:35.587 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 691.5755 ms
+2024-02-19 09:14:36.598 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 721.7326 ms
+2024-02-19 09:14:37.259 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 658.8235 ms
+2024-02-19 09:14:37.912 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 558.4563 ms
+2024-02-19 09:14:39.069 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 699.7211 ms
+2024-02-19 09:14:40.072 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 703.9646 ms
+2024-02-19 09:14:41.043 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 680.7840 ms
+2024-02-19 09:14:42.025 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 655.3252 ms
+2024-02-19 09:14:43.135 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 780.8670 ms
+2024-02-19 09:14:44.045 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 690.6892 ms
+2024-02-19 09:14:45.061 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 705.1545 ms
+2024-02-19 09:14:46.051 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 688.8725 ms
+2024-02-19 09:14:47.139 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 780.1103 ms
+2024-02-19 09:14:48.099 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 741.0406 ms
+2024-02-19 09:14:48.954 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 595.1937 ms
+2024-02-19 09:14:49.904 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 546.3344 ms
+2024-02-19 09:14:51.052 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 689.8213 ms
+2024-02-19 09:14:52.155 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 792.4322 ms
+2024-02-19 09:14:52.963 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 601.2220 ms
+2024-02-19 09:14:54.022 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 659.0863 ms
+2024-02-19 09:14:55.093 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 731.0192 ms
+2024-02-19 09:14:56.151 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 786.5192 ms
+2024-02-19 09:14:57.033 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 666.7151 ms
+2024-02-19 09:14:58.645 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 737.4385 ms
+2024-02-19 09:14:59.587 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 687.3451 ms
+2024-02-19 09:15:00.588 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 668.7489 ms
+2024-02-19 09:15:01.493 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 589.5910 ms
+2024-02-19 09:15:02.634 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 730.5132 ms
+2024-02-19 09:15:03.477 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 565.6205 ms
+2024-02-19 09:15:04.486 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 588.0303 ms
+2024-02-19 09:15:05.486 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 586.5632 ms
+2024-02-19 09:15:06.495 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 603.8994 ms
+2024-02-19 09:15:07.464 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 569.0790 ms
+2024-02-19 09:15:08.476 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 573.9318 ms
+2024-02-19 09:15:09.583 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 686.5616 ms
+2024-02-19 09:15:10.464 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 565.4383 ms
+2024-02-19 09:15:11.567 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 647.3354 ms
+2024-02-19 09:15:12.526 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 626.4459 ms
+2024-02-19 09:15:13.563 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 661.6782 ms
+2024-02-19 09:15:14.627 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 733.7371 ms
+2024-02-19 09:15:15.462 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 565.8029 ms
+2024-02-19 09:15:16.418 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 519.5415 ms
+2024-02-19 09:15:17.388 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 483.5370 ms
+2024-02-19 09:15:18.377 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 478.6162 ms
+2024-02-19 09:15:19.529 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 626.1813 ms
+2024-02-19 09:15:20.638 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 741.6751 ms
+2024-02-19 09:15:21.490 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 593.0992 ms
+2024-02-19 09:15:22.541 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 640.7998 ms
+2024-02-19 09:15:23.398 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 489.0775 ms
+2024-02-19 09:15:24.495 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 601.1687 ms
+2024-02-19 09:15:25.538 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 632.1358 ms
+2024-02-19 09:15:26.465 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 570.0928 ms
+2024-02-19 09:15:27.600 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 691.0373 ms
+2024-02-19 09:15:28.466 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 561.6175 ms
+2024-02-19 09:15:29.444 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 548.3039 ms
+2024-02-19 09:15:30.514 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 617.5864 ms
+2024-02-19 09:15:31.491 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 586.3641 ms
+2024-02-19 09:15:32.552 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 644.7454 ms
+2024-02-19 09:15:33.496 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 586.8512 ms
+2024-02-19 09:15:34.494 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 593.2665 ms
+2024-02-19 09:15:35.432 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 527.4034 ms
+2024-02-19 09:15:36.479 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 574.5081 ms
+2024-02-19 09:15:37.514 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 613.9114 ms
+2024-02-19 09:15:38.388 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 487.7106 ms
+2024-02-19 09:15:39.390 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 491.1954 ms
+2024-02-19 09:15:40.341 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 440.7336 ms
+2024-02-19 09:15:41.335 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 434.7499 ms
+2024-02-19 09:15:42.422 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 517.8245 ms
+2024-02-19 09:15:43.448 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 550.3475 ms
+2024-02-19 09:15:44.431 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 535.5913 ms
+2024-02-19 09:15:45.434 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 529.1315 ms
+2024-02-19 09:15:46.506 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 597.0378 ms
+2024-02-19 09:15:47.510 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 614.6560 ms
+2024-02-19 09:15:48.562 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 664.2097 ms
+2024-02-19 09:15:49.524 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 632.6488 ms
+2024-02-19 09:15:50.396 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 485.7058 ms
+2024-02-19 09:15:51.471 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 575.0837 ms
+2024-02-19 09:15:52.467 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 561.8455 ms
+2024-02-19 09:15:53.366 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 468.6852 ms
+2024-02-19 09:15:54.549 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 654.8792 ms
+2024-02-19 09:15:55.506 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 608.1020 ms
+2024-02-19 09:15:56.569 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 676.0762 ms
+2024-02-19 09:16:28.609 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 702.5491 ms
+2024-02-19 09:17:31.054 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 3149.0126 ms
+2024-02-19 09:18:28.376 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 479.3043 ms
+2024-02-19 09:19:28.463 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 551.9107 ms
+2024-02-19 09:20:28.556 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 633.5817 ms
+2024-02-19 09:21:28.440 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 537.2237 ms
+2024-02-19 09:22:28.512 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 619.4523 ms
+2024-02-19 09:22:37.079 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 612.0294 ms
+2024-02-19 09:22:38.011 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 654.1393 ms
+2024-02-19 09:22:39.109 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 745.1017 ms
+2024-02-19 09:22:40.176 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 813.8206 ms
+2024-02-19 09:22:41.111 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 744.9529 ms
+2024-02-19 09:22:42.032 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 667.5615 ms
+2024-02-19 09:22:43.543 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 644.6599 ms
+2024-02-19 09:22:44.619 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 724.8122 ms
+2024-02-19 09:22:45.442 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 547.9821 ms
+2024-02-19 09:22:46.479 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 584.7886 ms
+2024-02-19 09:22:47.341 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 446.1739 ms
+2024-02-19 09:22:48.626 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 735.4789 ms
+2024-02-19 09:22:49.624 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 711.9558 ms
+2024-02-19 09:22:50.456 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 549.8818 ms
+2024-02-19 09:22:51.531 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 624.3290 ms
+2024-02-19 09:22:52.556 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 649.7777 ms
+2024-02-19 09:22:53.499 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 596.8037 ms
+2024-02-19 09:22:54.561 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 657.0496 ms
+2024-02-19 09:22:55.535 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 624.3777 ms
+2024-02-19 09:22:56.639 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 740.4050 ms
+2024-02-19 09:22:57.564 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 654.8298 ms
+2024-02-19 09:22:58.456 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 560.9989 ms
+2024-02-19 09:22:59.376 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 478.8777 ms
+2024-02-19 09:23:00.342 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 435.2671 ms
+2024-02-19 09:23:01.450 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 550.5306 ms
+2024-02-19 09:23:02.396 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 497.2993 ms
+2024-02-19 09:23:03.374 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 465.0064 ms
+2024-02-19 09:23:04.415 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 505.1018 ms
+2024-02-19 09:23:05.489 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 530.8212 ms
+2024-02-19 09:23:06.487 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 595.4902 ms
+2024-02-19 09:23:07.363 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 470.5401 ms
+2024-02-19 09:23:08.547 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 647.4980 ms
+2024-02-19 09:23:09.514 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 609.5068 ms
+2024-02-19 09:23:10.524 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 626.1865 ms
+2024-02-19 09:23:11.455 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 562.0901 ms
+2024-02-19 09:23:12.455 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 558.3967 ms
+2024-02-19 09:23:13.536 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 637.2559 ms
+2024-02-19 09:23:14.597 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 692.7523 ms
+2024-02-19 09:23:15.605 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 702.9363 ms
+2024-02-19 09:23:16.922 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1026.1884 ms
+2024-02-19 09:23:18.719 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1136.8751 ms
+2024-02-19 09:23:20.079 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1160.2429 ms
+2024-02-19 09:23:21.216 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 907.5589 ms
+2024-02-19 09:23:22.898 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1677.4283 ms
+2024-02-19 09:23:23.895 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 972.8101 ms
+2024-02-19 09:23:24.650 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 751.1185 ms
+2024-02-19 09:23:26.267 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1100.2169 ms
+2024-02-19 09:23:27.361 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 953.5866 ms
+2024-02-19 09:23:28.639 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1275.2423 ms
+2024-02-19 09:23:31.019 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1754.2733 ms
+2024-02-19 09:23:34.272 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1165.3902 ms
+2024-02-19 09:23:35.496 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1213.9688 ms
+2024-02-19 09:23:36.430 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 894.1807 ms
+2024-02-19 09:23:37.076 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1234.7049 ms
+2024-02-19 09:23:38.331 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1184.1832 ms
+2024-02-19 09:23:40.501 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 982.2268 ms
+2024-02-19 09:23:42.002 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 865.5493 ms
+2024-02-19 09:24:28.544 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 643.1899 ms
+2024-02-19 09:25:26.718 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 591.8570 ms
+2024-02-19 09:25:27.227 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 507.9655 ms
+2024-02-19 09:25:27.971 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 614.7398 ms
+2024-02-19 09:25:29.509 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 610.0064 ms
+2024-02-19 09:25:30.565 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 667.5952 ms
+2024-02-19 09:25:31.617 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 717.0760 ms
+2024-02-19 09:25:32.645 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 749.5922 ms
+2024-02-19 09:25:33.569 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 668.3696 ms
+2024-02-19 09:25:34.534 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 628.7800 ms
+2024-02-19 09:25:35.557 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 664.6038 ms
+2024-02-19 09:25:36.561 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 665.8091 ms
+2024-02-19 09:25:37.471 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 568.0942 ms
+2024-02-19 09:25:38.412 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 514.7445 ms
+2024-02-19 09:25:39.576 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 675.5828 ms
+2024-02-19 09:25:40.782 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 876.2940 ms
+2024-02-19 09:25:41.552 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 768.3315 ms
+2024-02-19 09:25:42.216 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 662.5216 ms
+2024-02-19 09:25:42.959 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 605.5110 ms
+2024-02-19 09:25:44.090 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 720.3506 ms
+2024-02-19 09:25:45.136 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 773.8880 ms
+2024-02-19 09:25:46.001 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 647.9578 ms
+2024-02-19 09:25:47.002 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 642.2872 ms
+2024-02-19 09:25:48.011 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 656.3378 ms
+2024-02-19 09:25:49.053 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 695.1727 ms
+2024-02-19 09:25:49.973 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 608.4393 ms
+2024-02-19 09:25:51.111 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 742.3625 ms
+2024-02-19 09:25:52.075 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 716.6446 ms
+2024-02-19 09:25:53.082 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 723.9208 ms
+2024-02-19 09:25:54.006 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 641.0421 ms
+2024-02-19 09:25:54.972 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 610.6949 ms
+2024-02-19 09:25:55.958 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 592.2260 ms
+2024-02-19 09:25:56.987 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 629.4318 ms
+2024-02-19 09:25:57.977 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 615.7876 ms
+2024-02-19 09:25:59.043 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 679.7069 ms
+2024-02-19 09:26:00.096 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 729.9546 ms
+2024-02-19 09:26:01.041 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 685.3424 ms
+2024-02-19 09:26:02.120 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 756.7815 ms
+2024-02-19 09:26:02.982 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 627.5268 ms
+2024-02-19 09:26:03.993 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 632.6340 ms
+2024-02-19 09:26:05.009 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 653.6105 ms
+2024-02-19 09:26:05.974 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 618.0333 ms
+2024-02-19 09:26:06.885 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 523.7959 ms
+2024-02-19 09:26:07.905 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 548.9226 ms
+2024-02-19 09:26:08.946 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 581.7001 ms
+2024-02-19 09:26:09.911 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 543.1938 ms
+2024-02-19 09:26:15.993 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 5626.9239 ms
+2024-02-19 09:26:16.539 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 544.1021 ms
+2024-02-19 09:26:17.137 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 596.3957 ms
+2024-02-19 09:26:17.788 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 648.4869 ms
+2024-02-19 09:26:18.406 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 617.3722 ms
+2024-02-19 09:26:18.986 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 576.4170 ms
+2024-02-19 09:26:19.641 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 653.2785 ms
+2024-02-19 09:26:20.292 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 649.8238 ms
+2024-02-19 09:26:20.917 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 623.4424 ms
+2024-02-19 09:26:21.594 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 675.6502 ms
+2024-02-19 09:26:22.229 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 631.9245 ms
+2024-02-19 09:26:22.733 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 502.8527 ms
+2024-02-19 09:26:23.274 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 539.6458 ms
+2024-02-19 09:26:23.932 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 578.2416 ms
+2024-02-19 09:26:25.522 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 985.1576 ms
+2024-02-19 09:26:26.405 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 866.7630 ms
+2024-02-19 09:26:27.720 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1313.0572 ms
+2024-02-19 09:26:28.480 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 758.4593 ms
+2024-02-19 09:26:29.253 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 771.8796 ms
+2024-02-19 09:26:30.624 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 1220.2087 ms
+2024-02-19 09:26:31.556 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 926.7113 ms
+2024-02-19 09:26:32.327 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 769.8613 ms
+2024-02-19 09:26:33.083 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 715.5146 ms
+2024-02-19 09:26:34.013 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 627.3096 ms
+2024-02-19 09:26:35.072 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 707.3865 ms
+2024-02-19 09:26:36.043 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 681.6031 ms
+2024-02-19 09:26:37.062 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 696.2825 ms
+2024-02-19 09:26:38.037 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 675.7725 ms
+2024-02-19 09:26:39.029 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 665.9151 ms
+2024-02-19 09:26:40.262 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 810.7107 ms
+2024-02-19 09:26:40.980 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 615.7013 ms
+2024-02-19 09:26:42.007 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 626.9741 ms
+2024-02-19 09:26:42.965 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 609.4940 ms
+2024-02-19 09:26:43.990 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 630.0391 ms
+2024-02-19 09:26:45.030 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 665.2069 ms
+2024-02-19 09:26:45.926 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 560.9180 ms
+2024-02-19 09:26:46.954 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 599.6032 ms
+2024-02-19 09:26:48.018 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 655.1526 ms
+2024-02-19 09:26:48.919 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 554.2464 ms
+2024-02-19 09:26:49.881 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 526.3071 ms
+2024-02-19 09:26:51.076 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 701.2415 ms
+2024-02-19 09:26:52.297 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 871.2763 ms
+2024-02-19 09:26:53.118 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 764.9695 ms
+2024-02-19 09:26:54.086 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 723.9042 ms
+2024-02-19 09:26:54.902 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 542.9960 ms
+2024-02-19 09:26:56.044 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 682.7433 ms
+2024-02-19 09:26:57.059 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 698.0188 ms
+2024-02-19 09:26:57.984 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 621.0066 ms
+2024-02-19 09:26:58.966 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 604.5843 ms
+2024-02-19 09:26:59.898 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 537.6025 ms
+2024-02-19 09:27:00.994 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 637.2065 ms
+2024-02-19 09:27:01.831 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 470.5875 ms
+2024-02-19 09:27:03.031 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 670.3083 ms
+2024-02-19 09:27:04.035 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 672.4514 ms
+2024-02-19 09:27:04.991 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 635.1029 ms
+2024-02-19 09:27:06.005 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 643.2329 ms
+2024-02-19 09:27:07.521 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 615.7779 ms
+2024-02-19 09:27:08.606 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 703.9292 ms
+2024-02-19 09:27:09.655 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 755.3334 ms
+2024-02-19 09:27:10.620 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 723.3626 ms
+2024-02-19 09:27:11.518 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 611.9913 ms
+2024-02-19 09:27:12.545 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 640.0326 ms
+2024-02-19 09:27:13.514 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 612.0812 ms
+2024-02-19 09:27:14.578 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 679.2396 ms
+2024-02-19 09:27:15.517 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 623.2829 ms
+2024-02-19 09:27:16.598 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 705.5050 ms
+2024-02-19 09:27:16.646 +08:00 [ERR] Starting Controller
+2024-02-19 09:27:17.659 +08:00 [INF] Starting web application
+2024-02-19 09:27:18.011 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:27:18.016 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:27:18.020 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:27:18.021 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:27:18.021 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:27:18.158 +08:00 [ERR] Starting Controller
+2024-02-19 09:27:18.286 +08:00 [INF] HTTP GET / responded 200 in 167.9847 ms
+2024-02-19 09:27:20.505 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2396.4201 ms
+2024-02-19 09:27:31.193 +08:00 [ERR] Starting Controller
+2024-02-19 09:27:32.110 +08:00 [INF] Starting web application
+2024-02-19 09:27:32.434 +08:00 [INF] Now listening on: https://localhost:7227
+2024-02-19 09:27:32.438 +08:00 [INF] Now listening on: http://localhost:5007
+2024-02-19 09:27:32.442 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 09:27:32.443 +08:00 [INF] Hosting environment: Development
+2024-02-19 09:27:32.443 +08:00 [INF] Content root path: C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\
+2024-02-19 09:27:32.763 +08:00 [ERR] Starting Controller
+2024-02-19 09:27:32.892 +08:00 [ERR] Starting Controller
+2024-02-19 09:27:32.909 +08:00 [INF] HTTP GET / responded 200 in 17.5919 ms
+2024-02-19 09:27:32.909 +08:00 [INF] HTTP GET / responded 200 in 199.3938 ms
+2024-02-19 09:27:35.328 +08:00 [INF] HTTP GET /api/Details/TargetActual responded 200 in 2239.3200 ms
+2024-02-19 10:43:46.836 +08:00 [INF] Starting web application
+2024-02-19 10:43:46.922 +08:00 [FTL] Application terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at DOwithStop.Program.Main(String[] args) in C:\Users\Kalpana\source\repos\DOwithStop\DOwithStop\Program.cs:line 39
