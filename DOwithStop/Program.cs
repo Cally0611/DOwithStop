@@ -34,6 +34,7 @@ namespace DOwithStop
 
                 builder.Services.AddControllersWithViews();
                 builder.Services.AddDbContext<CustomDBContext>();
+
                 //after create the builder - UseSerilog
                 builder.Host.UseSerilog();
                 var app = builder.Build();

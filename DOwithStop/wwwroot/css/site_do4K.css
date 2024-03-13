@@ -1,118 +1,127 @@
-﻿html {
-  font-size: 14px;
-}
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
 }
 
 body {
-  /*margin-bottom: 60px;*/
-  background-color : black;
+    /*margin-bottom: 60px;*/
+    background-color: black;
+    /*touch-action: none;*/
 }
 
 .cardcontainer {
     background-color: black;
     border: double #2f2f2f;
-    border-width: 4px;
+    border-width: 10px;
     width: 60rem;
-    height: 33.67rem;
+    height: 51.4rem;
 }
 
 
 .cardcontainer-row2 {
     border: double #2f2f2f;
-    border-width: 5px;
+    border-width: 10px;
     border-top: none;
     background-color: black;
     width: 60rem;
-    height: 33.67rem;
+    height: 51.4rem;
 }
 
 .cardcontainer-row3 {
     border: double #2f2f2f;
-    border-width: 5px;
+    border-width: 10px;
     border-top: none;
     background-color: black;
     width: 60rem;
-    height: 33.67rem;
+    height: 51.4rem;
 }
+
 .cardcontainer-row4 {
     border: double#2f2f2f;
-    border-width: 5px;
+    border-width: 10px;
     border-top: none;
     background-color: black;
-    width: 60rem;
-    height: 33.67rem;
+    width: 20rem;
+    height: 53.5rem;
 }
 
 .actualtext {
-    color: white;
-    font-size: 12rem;
+    font-size: 14rem;
+    font-family: Arial;
+    letter-spacing: 3px;
 }
 
-.actualtext-ontarget{
-    color : green;
+.actualtext-ontarget {
+    color: green;
 }
+
 .actualtext-offtarget {
     color: red;
 }
 
-.actualtext-nojob {
-    color: grey;
-    font-size: 12rem;
-}
+
+
 .slashtext {
-    font-size: 12rem;
+    font-size: 14rem;
     color: grey;
-}
-.targettext {
-    color: white;
-    font-size: 12rem;
+    font-family: Arial;
+    letter-spacing: 3px;
 }
 
-.targettext-nojob {
-    color: grey;
+.targettext {
+
+    font-size: 14rem;
+    font-family: Arial;
+    letter-spacing: 3px;
+}
+
+.actualtext-shiftstart {
+        color: grey;
 }
 
 .custcardbody {
     height: 20rem;
     text-align: center;
     background-color: black;
-   
 }
+
 .parentcard {
     width: 100%;
     height: 100%;
+}
 
-}
 .pagefooter {
-    background-color: black;
+    background-color: white;
+    width: 200rem;
 }
+
 .card-header {
-    font-size: 40px;
-    height: 6rem;
+    font-family: Arial;
+    font-size: 70px;
+    padding-top: 40px;
+    height: 10rem;
     color: white;
     text-align: center;
+    background-color: black;
 }
 
 .gdLogoCls {
-    /* background: url(../images/gdLogo.PNG) no-repeat center;*/
-    background: url(../images/GD_Logo_GieseckeDevrient_neg.jpg) no-repeat center;
-    /*width: 500px;
-    height: 200;*/
-   /* position: absolute;*/
-    /*left: -30px;
-    background-size: 300%;*/
-  
-    /*right: -45px;*/
+    /*background: url(../images/GD_Logo_GieseckeDevrient_neg.jpg) no-repeat center;*/
+
+    background: url(../images/GD_Logo_BWMclaim_neg_600.png) no-repeat center;
+    background-size: 1200px 320px;
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
 }
 
 
@@ -126,7 +135,7 @@ body {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-    
+
 
 .flipCard {
     transform: rotateY(180deg);
@@ -140,45 +149,98 @@ body {
     backface-visibility: hidden;
 }
 
-/*.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}*/
+
 
 .flip-card-back {
     background-color: transparent;
     color: white;
     transform: rotateY(180deg);
-
 }
 
 
 .cvsstyle {
     position: relative;
-/*    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(97 97 97) 131%);*/
-    background : transparent;
+    /*    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(97 97 97) 131%);*/
+    background: transparent;
     height: 40vh;
     width: 60vw;
 }
-​
+
+?
 
 .timecontainer {
     text-align: center;
-    background-color :blue;
+    background-color: blue;
     border: 0px solid;
     font-size: 85px;
-    
     font-family: Arial;
 }
 
 .mchnorundetails {
-        text-align: center;
-    color: white;
-    font-size: 3rem;
-   /*   position: fixed;
+    text-align: center;
+    font-family: Arial;
+    font-size: 4rem;
+  
+}
 
-    top: 110%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;*/
+.card-footer {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 3rem;
+}
+
+.float-start {
+    padding-left: 25px;
+}
+
+.float-end {
+    padding-right: 25px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: black;
+}
+
+
+.footerfinish1 {
+    border: double #2f2f2f;
+    border-width: 10px;
+    border-top: none;
+    background-color: black;
+    height: 51.4rem;
+}
+
+.footerfinish2 {
+    border: double #2f2f2f;
+    border-width: 10px;
+    border-top: none;
+    border-left: none;
+    background-color: black;
+    height: 51.4rem;
+}
+
+#showtime {
+    color: white;
+    font-size: 200px;
+    padding-left: 140px;
+    padding-top: 180px;
+}
+
+img {
+    display: block;
+    justify-content: center;
+    max-width: 1300px;
+    max-height: 1300px;
+    width: auto;
+    height: auto;
+    padding-top: 210px;
+    padding-left: 180px;
+}
+
+.oeetarget{
+    font-family : Arial;
+    font-color : white;
 }

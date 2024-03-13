@@ -20,5 +20,8 @@ namespace DOwithStop.Models
 
         [Column("ChildCodePerShift")]
         public string ChildCodePerShift { get; set; }
+
+       
+
     }
 }

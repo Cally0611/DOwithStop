@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using DOwithStop.Models;
 
-//using DOwithStop.Models.Generated;
 using Microsoft.EntityFrameworkCore;
 
 namespace DOwithStop.Data;
@@ -20,9 +19,11 @@ public partial class OeedashboardContext : DbContext
 
     public virtual DbSet<AllMachine> AllMachines { get; set; }
 
-    public virtual DbSet<Machine> Machines { get; set; }
+    public virtual DbSet<AllOeeCalculation> AllOeeCalculations { get; set; }
 
- 
+
+    public virtual DbSet<AllTargetOee> AllTargetOees { get; set; }
+    public virtual DbSet<Machine> Machines { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Name= DOServerDB");
@@ -35,8 +36,6 @@ public partial class OeedashboardContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_AllMachines_Machine");
         });
-
-      
 
         OnModelCreatingPartial(modelBuilder);
     }

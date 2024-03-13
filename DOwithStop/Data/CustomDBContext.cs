@@ -1,5 +1,6 @@
 ﻿using DOwithStop.Models;
 
+
 //using DOwithStop.Models.Generated;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -18,6 +19,9 @@ namespace DOwithStop.Data
 
         public override DbSet<Machine> Machines { get; set; }
 
+        public override DbSet<AllOeeCalculation> AllOeeCalculations { get; set; }
+
+        public override DbSet<AllTargetOee> AllTargetOees { get; set; }
         public DbSet<StopReason> StopReasons { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
              => optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DOServerDB"));
@@ -40,7 +44,7 @@ namespace DOwithStop.Data
 
             modelBuilder.Entity<StopReason>(entity => entity.HasNoKey());
 
-   
+        
 
             OnModelCreatingPartial(modelBuilder);
         }

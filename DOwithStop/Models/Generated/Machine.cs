@@ -19,7 +19,4 @@ public partial class Machine
 
     [InverseProperty("Machine")]
     public virtual ICollection<AllMachine> AllMachines { get; } = new List<AllMachine>();
-
-
-
 }
