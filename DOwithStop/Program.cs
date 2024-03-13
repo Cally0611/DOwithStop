@@ -18,9 +18,9 @@ namespace DOwithStop
                             .Enrich.FromLogContext()
                             .WriteTo.Console()
                             // Add this line:
-                            .WriteTo.File(
-                               System.IO.Path.Combine(Environment.CurrentDirectory,"diagnostics.txt"), 
-                               rollingInterval: RollingInterval.Day)
+                            //.WriteTo.File(
+                            //   System.IO.Path.Combine(Environment.CurrentDirectory,"diagnostics.txt"), 
+                            //   rollingInterval: RollingInterval.Day)
                              
                             .CreateLogger();
 
