@@ -69,7 +69,7 @@ function Load() {
 
 
 function GetMachineDetails(machinedetails) {
-    //console.log(machinedetails);
+    try { 
     machinedetails.forEach((number, index) => {
 
 
@@ -77,9 +77,6 @@ function GetMachineDetails(machinedetails) {
 
         const child1_cardheader = divmchID.querySelector('.card-header');
         child1_cardheader.textContent = number.machineName;
-
-
-
 
 
         const child2_cardbody = divmchID.querySelector('.card-body');
@@ -94,9 +91,11 @@ function GetMachineDetails(machinedetails) {
         switch (parseInt(number.parentCodePerShift)) {
             case 1:
                 child2a_cardbodyact.removeAttribute("style");
+                child2a_cardbodytgt.removeAttribute("style");
+                child2a_cardbodytgt.style.color = "white";
                 const classlistact = child2a_cardbodyact.classList;
                 if (classlistact.length > 1) {
-                   
+
                     classlistact.remove(classlistact[classlistact.length - 1]);
                 }
                 child2a_cardbodyact.classList.add(checkActualColour(parseInt(number.actualNum), parseInt(number.targetPerShift), number.machineName));
@@ -108,8 +107,8 @@ function GetMachineDetails(machinedetails) {
                 child2a_cardbodytgt.removeAttribute("style");
                 child2a_cardbodytgt.style.color = "grey";
                 child2a_cardbodyact.style.color = "grey";
-                
-                
+
+
                 break;
         }
 
@@ -133,97 +132,100 @@ function GetMachineDetails(machinedetails) {
 
         const footer = divmchID.querySelector('.card-footer');
         const p_chdfooter = footer.querySelector('.float-start');
-        
+
         p_chdfooter.textContent = number.jobName1;
     });
+    }
+    catch (err) {
+        console.log(err.message);
+    }
 }
 
 function GetOeeDetails(oeeresults) {
-    oeeresults.forEach((number, index) => {
+    try {
+        oeeresults.forEach((number, index) => {
 
-        const divmchID = document.getElementById('cardmch' + number.oeeMachineId.toString());
+            const divmchID = document.getElementById('cardmch' + number.oeeMachineId.toString());
 
-        const nodejobstatus = divmchID.querySelector('.mchnorundetails');
+            const nodejobstatus = divmchID.querySelector('.mchnorundetails');
 
-        const jobstatus = nodejobstatus.innerHTML;
-       
-     
-        const oeefooter = document.getElementById('mchoee' + number.oeeMachineId.toString());
-        if (jobstatus == 'Active') {
-            oeefooter.innerHTML = 'OEE : ';
-            if (number.oeeInPercentage >= number.oeeTarget) {
-                oeefooter.innerHTML += '<span class="actualtext-ontarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+            const jobstatus = nodejobstatus.innerHTML;
+
+
+            const oeefooter = document.getElementById('mchoee' + number.oeeMachineId.toString());
+            if (jobstatus == 'Active') {
+                oeefooter.innerHTML = 'OEE : ';
+                if (number.oeeInPercentage >= number.oeeTarget) {
+                    oeefooter.innerHTML += '<span class="actualtext-ontarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                }
+                else {
+                    oeefooter.innerHTML += '<span class="actualtext-offtarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                }
+
+                oeefooter.innerHTML += ' / ';
+                oeefooter.innerHTML += '<span class="oeetarget">' + number.oeeTarget.toFixed(0) + '</span>';
             }
             else {
-                oeefooter.innerHTML += '<span class="actualtext-offtarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                oeefooter.innerHTML = '';
             }
-
-            oeefooter.innerHTML += ' / ';
-            oeefooter.innerHTML += '<span class="oeetarget">' + number.oeeTarget.toFixed(0) + '</span>';
-        }
-        else {
-            oeefooter.innerHTML = '';
-        }
-        
-       
-        //console.log(getactualtextcolor.classList);
-       
-
-        
-        
-
-//            number.oeeInPercentage
-    });
+        });
+    }
+    catch (err) {
+        console.log(err.message);
+    }
 }
 
 function GetFinishingDetails(finresults) {
-    //console.log(finresults[0].f1_Target);
+    try {
 
-    const f1Act = finresults[0].f1_Actual;
-    const f1Tgt = finresults[0].f1_Target;
-   
-   
+        const f1Act = finresults[0].f1_Actual;
+        const f1Tgt = finresults[0].f1_Target;
 
-    const f2Act = finresults[0].f2_Actual;
-    const f2Tgt = finresults[0].f2_Target;
-    
 
-    //F1 Actual /Target
 
-    const f1_act = document.getElementById('f1_actual');
-    f1_act.innerHTML = finresults[0].f1_Actual.toString();
-    f1_act.removeAttribute("style");
+        const f2Act = finresults[0].f2_Actual;
+        const f2Tgt = finresults[0].f2_Target;
 
-    const classlistf1 = f1_act.classList;
-    if (classlistf1.length > 1) {
 
-        classlistf1.remove(classlistf1[classlistf1.length - 1]);
+        //F1 Actual /Target
+
+        const f1_act = document.getElementById('f1_actual');
+        f1_act.innerHTML = finresults[0].f1_Actual.toString();
+        f1_act.removeAttribute("style");
+
+        const classlistf1 = f1_act.classList;
+        if (classlistf1.length > 1) {
+
+            classlistf1.remove(classlistf1[classlistf1.length - 1]);
+        }
+
+        f1_act.classList.add(checkActualColour(parseInt(f1Act), parseInt(f1Tgt), 1));
+
+
+        const f1_tgt = document.getElementById('f1_target');
+
+        f1_tgt.innerHTML = finresults[0].f1_Target.toString();
+
+
+
+        //F2 Actual /Target
+        const f2_act = document.getElementById('f2_actual');
+        f2_act.innerHTML = finresults[0].f2_Actual.toString();
+        f2_act.removeAttribute("style");
+        const classlistf2 = f2_act.classList;
+        if (classlistf2.length > 1) {
+
+            classlistf2.remove(classlistf2[classlistf2.length - 1]);
+        }
+
+        f2_act.classList.add(checkActualColour(parseInt(f2Act), parseInt(f2Tgt), 2));
+
+        const f2_tgt = document.getElementById('f2_target');
+        f2_tgt.innerHTML = finresults[0].f2_Target.toString();
     }
-
-    f1_act.classList.add(checkActualColour(parseInt(f1Act), parseInt(f1Tgt), 1));
-
-
-    const f1_tgt = document.getElementById('f1_target');
- 
-    f1_tgt.innerHTML = finresults[0].f1_Target.toString();
-
-
-
-      //F2 Actual /Target
-    const f2_act = document.getElementById('f2_actual');
-    f2_act.innerHTML = finresults[0].f2_Actual.toString();
-    f2_act.removeAttribute("style");
-    const classlistf2 = f2_act.classList;
-    if (classlistf2.length > 1) {
-
-        classlistf2.remove(classlistf2[classlistf2.length - 1]);
+    catch (err) {
+        console.log(err.message);
     }
-
-    f2_act.classList.add(checkActualColour(parseInt(f2Act), parseInt(f2Tgt), 2));
-
-    const f2_tgt = document.getElementById('f2_target');
-    f2_tgt.innerHTML = finresults[0].f2_Target.toString();
-  
 
     
 }
@@ -252,9 +254,17 @@ function checkActualColour(actualNum, targetnum, mch) {
                 var forecastperhour = (currhour - 7) * tgtperhour;
                 //console.log(forecastperhour);
                 forecastperhour = Math.round(forecastperhour);
-             
                 if (actualNum >= forecastperhour) {
-                    return 'actualtext-ontarget';
+                    
+                    switch (true) {
+                        case actualNum == 0: 
+                            return 'actualtext-zero';
+                            break;
+                        case actualNum != 0: 
+                            return 'actualtext-ontarget';
+                            break;
+                    }  
+                    
                 }
                 else {
                     return 'actualtext-offtarget';
@@ -262,8 +272,17 @@ function checkActualColour(actualNum, targetnum, mch) {
                 break;
             case (currhour >= 19 && currhour <= 23):
                 var forecastperhour = (currhour - 18) * tgtperhour;
+                forecastperhour = Math.round(forecastperhour);
+
                 if (actualNum >= forecastperhour) {
-                    return 'actualtext-ontarget';
+                    switch (true) {
+                        case actualNum == 0: 
+                            return 'actualtext-zero';
+                            break;
+                        case actualNum != 0: 
+                            return 'actualtext-ontarget';
+                            break;
+                    }
                 }
                 else {
                     return 'actualtext-offtarget';
@@ -271,8 +290,18 @@ function checkActualColour(actualNum, targetnum, mch) {
                 break;
             case (currhour >= 0 && currhour < 7):
                 var forecastperhour = (currhour + 6) * tgtperhour;
+                forecastperhour = Math.round(forecastperhour);
+
+
                 if (actualNum >= forecastperhour) {
-                    return 'actualtext-ontarget';
+                    switch (true) {
+                        case actualNum == 0: 
+                            return 'actualtext-zero';
+                            break;
+                        case actualNum != 0: 
+                            return 'actualtext-ontarget';
+                            break;
+                    }
                 }
                 else {
                     return 'actualtext-offtarget';
@@ -337,9 +366,18 @@ function checkReasonCode(parentrrc, childrrc) {
     return reasonondo;
 }
 
+function startTimer(cardid) {
+    document.getElementById(cardid).classList.remove("flipCard");
+}
+
+
+
+var timerarr = [];
+var timerobj = {};
+var timerid;
 
 function flipCard(clicked_id) {
-    //console.log('Run this');
+   
     var flipcontainer = document.getElementById(clicked_id);
     
     var mchruncode = flipcontainer.querySelector('.mchnorundetails').textContent;
@@ -347,31 +385,66 @@ function flipCard(clicked_id) {
 
     var containsflipclass = flipcontainer.classList.contains("flipCard");
 
+ 
 
-    var fliptimeout;
-    if (mchruncode == 'Active' && containsflipclass == false) {
-        document.getElementById(clicked_id).classList.toggle("flipCard");
-        flipChartTimer(clicked_id);
-       
+    if (mchruncode == 'Active' && containsflipclass == true) {
+        flipcontainer.classList.remove("flipCard");
+        delfromtimerarray(clicked_id);
+        //alert(timerid);
 
-        fliptimeout = setTimeout(function () {
-            const flg_class = flipcontainer.classList.contains("flipCard");
-            if (flg_class == true) {
-                document.getElementById(clicked_id).classList.remove("flipCard");
-            }
-        }, 20000);
-        alert(fliptimeout);
-   
-    }
-    else if (mchruncode == 'Active' && containsflipclass == true) {
-        alert(fliptimeout);
-        clearTimeout(fliptimeout);
-        document.getElementById(clicked_id).classList.remove("flipCard");
         
     }
+    else if (mchruncode == 'Active' && containsflipclass == false) {
+        flipcontainer.classList.toggle("flipCard");
+        flipChartTimer(clicked_id);
+     
+
+        //start the timer
+        timerid = setTimeout(startTimer, 20000, clicked_id);
+     
+        timerobj = { machineId: clicked_id, timer: timerid };
+    
+        chknpushtimerarr(timerobj);
+ 
+    }
+}
+function delfromtimerarray(mch_id) {
+    let indextoremove;
+    let timeoutID;
+   
+    for (var i = 0; i < timerarr.length; i++) {
+        if (timerarr[i].machineId == mch_id) {
+            
+            timeoutID = timerarr[i].timer;
+         
+            clearTimeout(timeoutID);
+            indextoremove = i;
+        }
+    }
+   
+
+   timerarr.splice(indextoremove, 1);
+
+   
+   
+}
+function chknpushtimerarr(timerobj) {
+    var getmchID = timerobj.machineId;
+    var mchflag = false;
+    for (var i = 0; i < timerarr.length; i++) {
+        if (timerarr[i].machineId == getmchID) {
+            timerarr[i].timer = timerobj.timer;
+            mchflag == true;
+        }
+    }
+
+    if (mchflag == false) {
+        timerarr.push(timerobj);
+    }
+
+   
 
 }
-
 function flipChartTimer(clicked_id) {
     var originalID = clicked_id;
     var mchID = parseInt(originalID.replace("cardmch", ""));
