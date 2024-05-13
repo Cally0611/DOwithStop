@@ -1,0 +1,448 @@
+﻿@{
+    ViewData["Title"] = "DashboardSwipe";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+
+}
+@section css {
+
+    <link rel="stylesheet" href="~/css/site_do4K.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DOwithStop.styles.css" asp-append-version="true" />
+}
+
+<div class="swipe-container">
+
+    <div class="thecover active">
+        <div class="card-group">
+            <div class="card cardcontainer" id="mch1">
+                <div class="card-header">LITHO 1</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch1" hidden="hidden" onclick="LastShift('cardmch1', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch1" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+                        <canvas id="chartmch1" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee1"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer" id="mch2">
+                <div class="card-header"></div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch2" hidden="hidden" onclick="LastShift('cardmch2', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch2" onclick="flipCard(this.id)">
+
+                    <div class="card-body custcardbody flip-card-front">
+
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+                        <canvas id="chartmch2" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee2"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer" id="mch11">
+                <div class="card-header"></div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch11" hidden="hidden" onclick="LastShift('cardmch11', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch11" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch11" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee11"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer" id="mch12">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch12" hidden="hidden" onclick="LastShift('cardmch12', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch12" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch12" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee12"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer" id="mch13">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch13" hidden="hidden" onclick="LastShift('cardmch13', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch13" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch13" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee13"></p>
+                </div>
+            </div>
+        </div>
+
+        @*DIV if follows Machine ID*@
+        <div class="card-group">
+            <div class="card cardcontainer-row2" id="mch14">
+                <div class="card-header">LITHO 1</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch14" hidden="hidden" onclick="LastShift('cardmch14', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch14" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch14" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee14"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row2" id="mch15">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch15" hidden="hidden" onclick="LastShift('cardmch15', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch15" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch15" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee15"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row2" id="mch16">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch16" hidden="hidden" onclick="LastShift('cardmch16', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch16" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch16" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee16"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row2" id="mch4">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch4" hidden="hidden" onclick="LastShift('cardmch4', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch4" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch4" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee4"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row2" id="mch9">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch9" hidden="hidden" onclick="LastShift('cardmch9', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch9" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+                        <canvas id="chartmch9" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee9"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card cardcontainer-row3" id="mch6">
+                <div class="card-header">LITHO 1</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch6" hidden="hidden" onclick="LastShift('cardmch6', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch6" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch6" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee6"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row3" id="mch7">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch7" hidden="hidden" onclick="LastShift('cardmch7', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch7" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch7" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee7"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row3" id="mch8">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch8" hidden="hidden" onclick="LastShift('cardmch8', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch8" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch8" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee8"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row3" id="mch5">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch5" hidden="hidden" onclick="LastShift('cardmch5', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch5" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch5" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee5"></p>
+                </div>
+            </div>
+            <div class="card cardcontainer-row3" id="mch10">
+                <div class="card-header">Header</div>
+                <div class="btn-div">
+                    <button type="button" class="btn btn-secondary fs-1" id="btnmch10" hidden="hidden" onclick="LastShift('cardmch10', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch10" onclick="flipCard(this.id)">
+                    <div class="card-body custcardbody flip-card-front">
+                        <span class="actualtext" style="color:white">0</span>
+                        <span class="slashtext">/</span>
+                        <span class="targettext" style="color:white">0</span>
+                        <div class="mchnorundetails" style="color:white"></div>
+                    </div>
+                    <div class="flip-card-back">
+
+                        <canvas id="chartmch10" class="cvsstyle"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="float-start">1000 congo</p>
+                    <p class="float-end" id="mchoee10"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card footerfinish1" id="f1">
+                <div class="card-header">Finishing 1</div>
+                <div class="card-body custcardbody">
+                    <span class="actualtext" id="f1_actual" style="color:white">0</span>
+                    <span class="slashtext">/</span>
+                    <span class="targettext" id="f1_target" style="color:white">0</span>
+                    <div id="mchnorun1" class="mchnorundetails" style="color:white"></div>
+                </div>
+            </div>
+            <div class="card footerfinish2" id="f2">
+                <div class="card-header">Finishing 2</div>
+                <div class="card-body custcardbody">
+                    <span class="actualtext" id="f2_actual" style="color:white">0</span>
+                    <span class="slashtext">/</span>
+                    <span class="targettext" id="f2_target" style="color:white">0</span>
+                    <div id="mchnorun2" class="mchnorundetails" style="color:white"></div>
+                </div>
+            </div>
+            <div class="card cardcontainer-row4" id="mch17">
+                @*    <div class="card-header">Sampling 1</div>
+                <div class="btn-div">
+                <button type="button" class="btn btn-secondary fs-1" id="btnmch17" hidden="hidden" onclick="LastShift('cardmch17', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch17" onclick="flipCard(this.id)">
+                <div class="card-body custcardbody flip-card-front">
+                <span class="actualtext" style="color:white">0</span>
+                <span class="slashtext">/</span>
+                <span class="targettext" style="color:white">0</span>
+                <div class="mchnorundetails" style="color:white"></div>
+                </div>
+                <div class="flip-card-back">
+                <canvas id="chartmch17"></canvas>
+                </div>
+                </div>
+                <div class="card-footer">
+                <p class="float-start"></p>
+                <p class="float-end" id="mchoee17"></p>
+                </div> *@
+            </div>
+            <div class="card cardcontainer-row4" id="mch18">
+                @*    <div class="card-header">Sampling 2</div>
+                <div class="btn-div">
+                <button type="button" class="btn btn-secondary fs-1" id="btnmch18" hidden="hidden" onclick="LastShift('cardmch18', this)"></button>
+                </div>
+                <div class="flip-card-inner" id="cardmch18" onclick="flipCard(this.id)">
+                <div class="card-body custcardbody flip-card-front">
+                <span class="actualtext" style="color:white">0</span>
+                <span class="slashtext">/</span>
+                <span class="targettext" style="color:white">0</span>
+                <div class="mchnorundetails" style="color:white"></div>
+                </div>
+                <div class="flip-card-back">
+                <canvas id="chartmch18"></canvas>
+                </div>
+                </div>
+                <div class="card-footer">
+                <p class="float-start"></p>
+                <p class="float-end" id="mchoee18"></p>
+                </div> *@
+            </div>
+            <div class="card cardcontainer-row4">
+
+                <div style="margin:auto">
+                    <div id="showtimev2"></div>
+
+
+                    <div id="showlogo">
+                        <img src="../images/GD_Logo_BWMclaim_neg_600.png" alt="" id="imgv2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        @*  <div class="card-group">
+        <div class="card cardcontainer-row5">
+        <div class="col-md-12">
+        <div style="background-color:black">
+        <div style="text-align:right">
+        <div id="showtime"></div>
+        <div><img src="../images/GD_Logo_BWMclaim_neg_600.png" alt=""></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> *@
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/site_details.js" asp-append-version="true"></script>
+    <script src="~/js/basicSwipe.js" asp-append-version="true"></script>
+    <script src="~/js/swipeaction.js" asp-append-version="true"></script>
+}

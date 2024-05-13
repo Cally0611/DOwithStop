@@ -1,4 +1,6 @@
 using DOwithStop.Data;
+using DOwithStop.Interfaces;
+using DOwithStop.Services;
 using Serilog;
 using Serilog.Events;
 using Serilog.Formatting.Compact;
@@ -34,6 +36,7 @@ namespace DOwithStop
 
                 builder.Services.AddControllersWithViews();
                 builder.Services.AddDbContext<CustomDBContext>();
+                builder.Services.AddSingleton<IOee, OeeService>();
 
                 //after create the builder - UseSerilog
                 builder.Host.UseSerilog();

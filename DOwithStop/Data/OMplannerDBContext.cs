@@ -16,6 +16,10 @@ namespace DOwithStop.Data
 
         public DbSet<FinishingAction> FinishingActions { get; set; }
 
+        public DbSet<FinishingReason> FinishingReasons { get; set; }
+
+        public DbSet<FinishingReasonUser> FinishingReasonUsers { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
              => optionsBuilder.UseSqlServer(_configuration.GetConnectionString("OMplannerDB"));
 
@@ -23,7 +27,7 @@ namespace DOwithStop.Data
         {
            
             modelBuilder.Entity<FinishingAction>(entity => entity.HasNoKey());
-
+   
             OnModelCreatingPartial(modelBuilder);
         }
 

@@ -2,9 +2,12 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 
+
+
+
 document.addEventListener('contextmenu', event => event.preventDefault())
 //Call the function Load to get data from API
-$(document).ready(
+$(
     function () {
         setInterval(function () {
             //var randomnumber = Math.floor(Math.random() * 100);
@@ -12,12 +15,14 @@ $(document).ready(
         }, 1000);
     });
 
-//$(document).ready(
+//$(
 //    Load());
 
 function Load() {
     var dt = new Date().toLocaleTimeString();
-    $('#showtime').text(dt);
+    $('#showtimev2').text(dt);
+    $('#showtimev3').text(dt);
+ /*   $('#showtimeswipe').text(dt);*/
     //console.log("time");
 
 
@@ -30,7 +35,7 @@ function Load() {
             //console.log(result);
             GetMachineDetails(result);
         },
-        error: function (err,timeout) {
+        error: function (err, timeout) {
             console.log('TargetActual' + err);
             console.log('TargetActual' + timeout);
         }
@@ -53,88 +58,91 @@ function Load() {
         url: "/api/Details/Finishing",
         dataType: "json",
         success: function (result) {
-            //console.log(result);
             GetFinishingDetails(result);
         },
         error: function (err, timeout) {
             console.log('Finishing' + err);
             console.log('Finishing' + timeout);
         }
+
+
     });
+
 
 }
 
-//const card = document.getElementById('cardmch1');
-//card.addEventListener("click", flipCard);
+
+
 
 
 function GetMachineDetails(machinedetails) {
-    try { 
-    machinedetails.forEach((number, index) => {
+ 
+    try {
+        machinedetails.forEach((number, index) => {
 
 
-        const divmchID = document.getElementById('mch' + number.machineId.toString());
+            const divmchID = document.getElementById('mch' + number.machineID.toString());
 
-        const child1_cardheader = divmchID.querySelector('.card-header');
-        child1_cardheader.textContent = number.machineName;
-
-
-        const child2_cardbody = divmchID.querySelector('.card-body');
-        const child2a_cardbodyact = child2_cardbody.querySelector('.actualtext');
-        const child2a_cardbodytgt = child2_cardbody.querySelector('.targettext');
-
-        const child2b_cardbodymchrun = child2_cardbody.querySelector('.mchnorundetails');
-
-        child2a_cardbodytgt.innerHTML = number.targetPerShift;
-
-        child2a_cardbodyact.innerHTML = number.actualNum;
-        switch (parseInt(number.parentCodePerShift)) {
-            case 1:
-                child2a_cardbodyact.removeAttribute("style");
-                child2a_cardbodytgt.removeAttribute("style");
-                child2a_cardbodytgt.style.color = "white";
-                const classlistact = child2a_cardbodyact.classList;
-                if (classlistact.length > 1) {
-
-                    classlistact.remove(classlistact[classlistact.length - 1]);
-                }
-                child2a_cardbodyact.classList.add(checkActualColour(parseInt(number.actualNum), parseInt(number.targetPerShift), number.machineName));
-                break;
-            case 0:
-            case 3:
-            case 4:
-                child2a_cardbodyact.removeAttribute("style");
-                child2a_cardbodytgt.removeAttribute("style");
-                child2a_cardbodytgt.style.color = "grey";
-                child2a_cardbodyact.style.color = "grey";
+            const child1_cardheader = divmchID.querySelector('.card-header');
+            child1_cardheader.textContent = number.machineName;
 
 
-                break;
-        }
+            const child2_cardbody = divmchID.querySelector('.card-body');
+            const child2a_cardbodyact = child2_cardbody.querySelector('.actualtext');
+            const child2a_cardbodytgt = child2_cardbody.querySelector('.targettext');
 
-        const jobstatus = checkReasonCode(number.parentCodePerShift, number.childCodePerShift);
-        child2b_cardbodymchrun.innerHTML = jobstatus;
+            const child2b_cardbodymchrun = child2_cardbody.querySelector('.mchnorundetails');
 
-        if (jobstatus == 'Active') {
-            child2b_cardbodymchrun.removeAttribute("style");
-            child2b_cardbodymchrun.style.color = 'Black';
-        }
-        else {
+            child2a_cardbodytgt.innerHTML = number.targetPerShift;
 
+            child2a_cardbodyact.innerHTML = number.actualNum;
+            switch (parseInt(number.parentCodePerShift)) {
+                case 1:
+                    child2a_cardbodyact.removeAttribute("style");
+                    child2a_cardbodytgt.removeAttribute("style");
+                    child2a_cardbodytgt.style.color = "white";
+                    const classlistact = child2a_cardbodyact.classList;
+                    if (classlistact.length > 1) {
+
+                        classlistact.remove(classlistact[classlistact.length - 1]);
+                    }
+                    child2a_cardbodyact.classList.add(checkActualColour(parseInt(number.actualNum), parseInt(number.targetPerShift), number.machineName));
+                    break;
+                case 0:
+                case 3:
+                case 4:
+                    child2a_cardbodyact.removeAttribute("style");
+                    child2a_cardbodytgt.removeAttribute("style");
+                    child2a_cardbodytgt.style.color = "grey";
+                    child2a_cardbodyact.style.color = "grey";
+
+
+                    break;
+            }
+
+            const jobstatus = checkReasonCode(number.parentCodePerShift, number.childCodePerShift);
             child2b_cardbodymchrun.innerHTML = jobstatus;
-            child2b_cardbodymchrun.style.color = 'White';
-        }
+
+            if (jobstatus == 'Active') {
+                child2b_cardbodymchrun.removeAttribute("style");
+                child2b_cardbodymchrun.style.color = 'Black';
+            }
+            else {
+
+                child2b_cardbodymchrun.innerHTML = jobstatus;
+                child2b_cardbodymchrun.style.color = 'White';
+            }
 
 
 
 
 
 
-        const footer = divmchID.querySelector('.card-footer');
-        const p_chdfooter = footer.querySelector('.float-start');
+            const footer = divmchID.querySelector('.card-footer');
+            const p_chdfooter = footer.querySelector('.float-start');
 
-        p_chdfooter.textContent = number.jobName1;
-    });
+            p_chdfooter.textContent = number.jobName1;
+        });
     }
     catch (err) {
         console.log(err.message);
@@ -145,29 +153,66 @@ function GetOeeDetails(oeeresults) {
     try {
         oeeresults.forEach((number, index) => {
 
+            const shiftbtnID = document.getElementById('btnmch' + number.oeeMachineId.toString());
+            //console.log(shiftbtnID.innerHTML);
             const divmchID = document.getElementById('cardmch' + number.oeeMachineId.toString());
 
             const nodejobstatus = divmchID.querySelector('.mchnorundetails');
 
-            const jobstatus = nodejobstatus.innerHTML;
+            let jobstatus = nodejobstatus.innerHTML;
 
 
             const oeefooter = document.getElementById('mchoee' + number.oeeMachineId.toString());
-            if (jobstatus == 'Active') {
-                oeefooter.innerHTML = 'OEE : ';
-                if (number.oeeInPercentage >= number.oeeTarget) {
-                    oeefooter.innerHTML += '<span class="actualtext-ontarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
-                }
-                else {
-                    oeefooter.innerHTML += '<span class="actualtext-offtarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
-                }
 
-                oeefooter.innerHTML += ' / ';
-                oeefooter.innerHTML += '<span class="oeetarget">' + number.oeeTarget.toFixed(0) + '</span>';
+
+            switch (shiftbtnID.innerHTML) {
+                case '':
+                case 'Last Shift':
+                    if (jobstatus == 'Active') {
+                        oeefooter.innerHTML = 'OEE : ';
+                        if (number.oeeInPercentage >= number.oeeTarget) {
+                            oeefooter.innerHTML += '<span class="actualtext-ontarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                        }
+                        else {
+                            oeefooter.innerHTML += '<span class="actualtext-offtarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                        }
+
+                        oeefooter.innerHTML += ' / ';
+                        oeefooter.innerHTML += '<span class="oeetarget">' + number.oeeTarget.toFixed(0) + '</span>';
+                    }
+                    else {
+                        oeefooter.innerHTML = '';
+                    }
+                    break;
+                case 'Current Shift':
+                    jobstatus = GetLastShiftTarget(number.oeeMachineId);
+                    //console.log('Value of' + GetLastShiftOEE(number.oeeMachineId));
+                    const oeevalue = GetLastShiftOEE(number.oeeMachineId);
+                    if (oeevalue != null) {
+                        number.oeeInPercentage = oeevalue;
+                    }
+                    else {
+                        number.oeeInPercentage = 0;
+                    }
+                    oeefooter.innerHTML = 'OEE : ';
+                    if (number.oeeInPercentage >= number.oeeTarget) {
+                        oeefooter.innerHTML += '<span class="actualtext-ontarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                    }
+                    else {
+                        oeefooter.innerHTML += '<span class="actualtext-offtarget">' + number.oeeInPercentage.toFixed(0) + '</span>';
+                    }
+
+                    oeefooter.innerHTML += ' / ';
+                    oeefooter.innerHTML += '<span class="oeetarget">' + number.oeeTarget.toFixed(0) + '</span>';
+                    break;
+
             }
-            else {
-                oeefooter.innerHTML = '';
-            }
+
+            
+               
+                
+            
+           
         });
     }
     catch (err) {
@@ -176,59 +221,98 @@ function GetOeeDetails(oeeresults) {
 }
 
 function GetFinishingDetails(finresults) {
+
     try {
 
-        const f1Act = finresults[0].f1_Actual;
-        const f1Tgt = finresults[0].f1_Target;
+        const finishlnarr = [
+            {
+                line: 1,
+                target: finresults[0].f1_Target,
+                actual: finresults[0].f1_Actual,
+                reason: CheckFinishingTargetReason(finresults[0].f1_Target, 1)
+          
+            },
+            {
+                line: 2,
+                target: finresults[0].f2_Target,
+                actual: finresults[0].f2_Actual,
+                reason: CheckFinishingTargetReason(finresults[0].f2_Target, 2)
+            }];
 
+        for (var i = 0; i < finishlnarr.length; i++) {
+            const f_act = document.getElementById('f' + finishlnarr[i].line.toString() + '_actual');
+            const f_tgt = document.getElementById('f' + finishlnarr[i].line.toString() + '_target');
+            const classlistfin = f_act.classList;
 
+            if (finishlnarr[i].reason != '') {
+                f_act.style.color = 'grey';
+                f_tgt.style.color = 'grey';
+                document.getElementById('mchnorun' + (i + 1).toString()).innerHTML = finishlnarr[i].reason;
+            }
+            else {
+                f_act.removeAttribute("style");
 
-        const f2Act = finresults[0].f2_Actual;
-        const f2Tgt = finresults[0].f2_Target;
+                f_tgt.style.color = 'white';
+                f_act.innerHTML = finishlnarr[i].actual.toString();
+                f_tgt.innerHTML = finishlnarr[i].target.toString();
+                
+           
+                if (classlistfin.length > 1) {
+                    classlistfin.remove(classlistfin[classlistfin.length - 1]);
+                }
 
+                f_act.classList.add(checkActualColour(parseInt(f_act.innerHTML), parseInt(f_tgt.innerHTML), (i+1)));
 
-        //F1 Actual /Target
-
-        const f1_act = document.getElementById('f1_actual');
-        f1_act.innerHTML = finresults[0].f1_Actual.toString();
-        f1_act.removeAttribute("style");
-
-        const classlistf1 = f1_act.classList;
-        if (classlistf1.length > 1) {
-
-            classlistf1.remove(classlistf1[classlistf1.length - 1]);
+                document.getElementById('mchnorun' + (i + 1).toString()).innerHTML = '';
+            }
         }
-
-        f1_act.classList.add(checkActualColour(parseInt(f1Act), parseInt(f1Tgt), 1));
-
-
-        const f1_tgt = document.getElementById('f1_target');
-
-        f1_tgt.innerHTML = finresults[0].f1_Target.toString();
-
-
-
-        //F2 Actual /Target
-        const f2_act = document.getElementById('f2_actual');
-        f2_act.innerHTML = finresults[0].f2_Actual.toString();
-        f2_act.removeAttribute("style");
-        const classlistf2 = f2_act.classList;
-        if (classlistf2.length > 1) {
-
-            classlistf2.remove(classlistf2[classlistf2.length - 1]);
-        }
-
-        f2_act.classList.add(checkActualColour(parseInt(f2Act), parseInt(f2Tgt), 2));
-
-        const f2_tgt = document.getElementById('f2_target');
-        f2_tgt.innerHTML = finresults[0].f2_Target.toString();
+       
+       
     }
     catch (err) {
         console.log(err.message);
     }
 
+
+}
+
+
+function CheckFinishingTargetReason(fin_targetval, linenum) {
+    var reasonfinishing = '';
+    var jqXHR = '';
+    if (fin_targetval == 0) {
+       jqXHR =  $.ajax({
+            type: "GET",
+           url: "/api/Details/FinishingReason",
+           async: false,
+           data: { paramfinID: linenum },
+           dataType: "json",
+           success: function (result) {
+                //console.log(result);
+                return result;
+              
+            },
+            error: function (err, timeout) {
+                console.log('FinishingReason' + err);
+                console.log('FinishingReason' + timeout);
+            }
+       });
+
+        if (jqXHR.responseJSON != 'No Reason Selected') {
+            reasonfinishing = jqXHR.responseJSON[0].finishrsnPlainText;
+        }
+        else {
+            reasonfinishing =  'No Reason Selected';
+        }
+    }
+
+    
+   return reasonfinishing;
+
+  
     
 }
+
 
 function checkActualColour(actualNum, targetnum, mch) {
 
@@ -254,17 +338,17 @@ function checkActualColour(actualNum, targetnum, mch) {
                 var forecastperhour = (currhour - 7) * tgtperhour;
                 //console.log(forecastperhour);
                 forecastperhour = Math.round(forecastperhour);
-                if (actualNum >= forecastperhour) {
-                    
+                if (actualNum > forecastperhour) {
+
                     switch (true) {
-                        case actualNum == 0: 
+                        case actualNum == 0:
                             return 'actualtext-zero';
                             break;
-                        case actualNum != 0: 
+                        case actualNum != 0:
                             return 'actualtext-ontarget';
                             break;
-                    }  
-                    
+                    }
+
                 }
                 else {
                     return 'actualtext-offtarget';
@@ -276,10 +360,10 @@ function checkActualColour(actualNum, targetnum, mch) {
 
                 if (actualNum >= forecastperhour) {
                     switch (true) {
-                        case actualNum == 0: 
+                        case actualNum == 0:
                             return 'actualtext-zero';
                             break;
-                        case actualNum != 0: 
+                        case actualNum != 0:
                             return 'actualtext-ontarget';
                             break;
                     }
@@ -295,10 +379,10 @@ function checkActualColour(actualNum, targetnum, mch) {
 
                 if (actualNum >= forecastperhour) {
                     switch (true) {
-                        case actualNum == 0: 
+                        case actualNum == 0:
                             return 'actualtext-zero';
                             break;
-                        case actualNum != 0: 
+                        case actualNum != 0:
                             return 'actualtext-ontarget';
                             break;
                     }
@@ -366,67 +450,78 @@ function checkReasonCode(parentrrc, childrrc) {
     return reasonondo;
 }
 
-function startTimer(cardid) {
+function startTimer(cardid, btnelement) {
     document.getElementById(cardid).classList.remove("flipCard");
+    EnableLastShiftbtn(btnelement);
 }
-
-
 
 var timerarr = [];
 var timerobj = {};
 var timerid;
 
 function flipCard(clicked_id) {
-   
+
     var flipcontainer = document.getElementById(clicked_id);
-    
+
+
+
     var mchruncode = flipcontainer.querySelector('.mchnorundetails').textContent;
 
 
     var containsflipclass = flipcontainer.classList.contains("flipCard");
+    var parentelement = document.getElementById(clicked_id).parentNode;
+    //console.log(parentelement);
+    var pid = parentelement.id;
+    //console.log(pid);
+    var btnelement = document.getElementById('btn' + pid);
+    //console.log(btnelement);
 
- 
 
     if (mchruncode == 'Active' && containsflipclass == true) {
         flipcontainer.classList.remove("flipCard");
         delfromtimerarray(clicked_id);
-        //alert(timerid);
+        EnableLastShiftbtn(btnelement);
 
-        
+
+
     }
     else if (mchruncode == 'Active' && containsflipclass == false) {
+
+        EnableLastShiftbtn(btnelement);
+
+
         flipcontainer.classList.toggle("flipCard");
         flipChartTimer(clicked_id);
-     
+
 
         //start the timer
-        timerid = setTimeout(startTimer, 20000, clicked_id);
-     
+        timerid = setTimeout(startTimer, 20000, clicked_id, btnelement);
+
         timerobj = { machineId: clicked_id, timer: timerid };
-    
+
         chknpushtimerarr(timerobj);
- 
+
     }
 }
 function delfromtimerarray(mch_id) {
     let indextoremove;
     let timeoutID;
-   
+
     for (var i = 0; i < timerarr.length; i++) {
         if (timerarr[i].machineId == mch_id) {
-            
+
             timeoutID = timerarr[i].timer;
-         
+
             clearTimeout(timeoutID);
             indextoremove = i;
         }
     }
-   
 
-   timerarr.splice(indextoremove, 1);
 
-   
-   
+    timerarr.splice(indextoremove, 1);
+
+
+
 }
 function chknpushtimerarr(timerobj) {
     var getmchID = timerobj.machineId;
@@ -442,7 +537,7 @@ function chknpushtimerarr(timerobj) {
         timerarr.push(timerobj);
     }
 
-   
+
 
 }
 function flipChartTimer(clicked_id) {
@@ -453,14 +548,14 @@ function flipChartTimer(clicked_id) {
         url: "/api/Details/StopReasons",
         dataType: "json",
         success: function (result) {
-            PlotChart1(result[mchID], mchID);
+            PlotChart1(result[mchID], mchID, 'Current Shift');
         },
         error: function (err) {
             console.log(err);
         }
     });
 
-  
+
 }
 
 function gradientcolor(ctx) {
@@ -472,19 +567,30 @@ function gradientcolor(ctx) {
 }
 
 
-function PlotChart1(stopresults, mchID) {
+function PlotChart1(stopresults, mchID, shifttype) {
+
+
+    var shiftnodata_txt;
+    if (shifttype == 'Current Shift') {
+        shiftnodata_txt = 'Awaiting Data';
+    }
+    else {
+        shiftnodata_txt = GetLastShiftTarget(mchID);
+        //update OEE
+    }
+
     var dataarr = [];
     var labelarr = [];
 
     //console.log('This ' + stopresults + 'ID' + mchID);
- 
+
     if (typeof stopresults !== 'undefined' && stopresults !== null) {
         //console.log("Got data");
         Object.values(stopresults).forEach(val => {
             dataarr.push(val.stopDownTime);
             if (val.stopReasonName != null && val.subSRName != null) {
                 labelarr.push(val.subSRName);
-               
+
             }
             else {
                 labelarr.push(val.stopReasonName);
@@ -521,14 +627,14 @@ function PlotChart1(stopresults, mchID) {
                 } } = chart;
             ctx.save();
 
-          /*  console.log("Total data" + data);*/
+            /*  console.log("Total data" + data);*/
             if (dataarr.length == 0) {
                 ctx.fillStyle = 'black';
                 ctx.fillRect(left, top, width, height);
                 ctx.font = 'bold 50px Arial';
                 ctx.fillStyle = 'white';
                 ctx.textAlign = 'center';
-                ctx.fillText('Awaiting Data', left + width / 2, top + height / 2);
+                ctx.fillText(shiftnodata_txt, left + width / 2, top + height / 2);
             }
 
         })
@@ -689,7 +795,7 @@ function PlotChart1(stopresults, mchID) {
                                 else {
                                     return reaslbl;
                                 }
-                               
+
                             }
                         },
                     }
@@ -706,3 +812,101 @@ function PlotChart1(stopresults, mchID) {
 
 }
 
+function EnableLastShiftbtn(btnID) {
+    let element = btnID;
+    btnID.innerHTML = 'Last Shift';
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+        element.removeAttribute("hidden");
+
+    } else {
+        element.setAttribute("hidden", "hidden");
+    }
+}
+
+function LastShift(cardmch, thisbtn) {
+    var btn = document.getElementById(thisbtn.id);
+    if (btn.innerHTML == 'Current Shift') {
+        btn.innerHTML = 'Last Shift';
+        flipChartTimer(cardmch);
+    }
+    else {
+        btn.innerHTML = 'Current Shift';
+        flipLastShiftChart(cardmch);
+    }
+}
+
+function flipLastShiftChart(clicked_id) {
+    var originalID = clicked_id;
+    var mchID = parseInt(originalID.replace("cardmch", ""));
+    $.ajax({
+        type: "GET",
+        url: "/api/Details/LastShiftStopReasons",
+        dataType: "json",
+        success: function (result) {
+            PlotChart1(result[mchID], mchID, 'LastShift');
+        },
+        error: function (err) {
+            console.log(err);
+        }
+    });
+}
+
+function GetLastShiftTarget(machineID) {
+    var jqXHR = $.ajax({
+        type: "GET",
+        async: false,
+        data: machineID,
+        url: "/api/Details/LastShiftTarget",
+        data: { parammchID: machineID },
+        dataType: "json",
+        success: function (result) {
+        
+            return result;
+
+
+        },
+        error: function (err) {
+            console.log(err);
+        }
+    });
+
+    if (jqXHR.responseJSON[0] != null) {
+        var rs = checkReasonCode(jqXHR.responseJSON[0].pReasonCode, jqXHR.responseJSON[0].cReasonCode);
+        return rs;
+    }
+    else {
+        return ' ';
+    }
+   
+}
+
+function GetLastShiftOEE(machineID) {
+    var jqXHR = $.ajax({
+        type: "GET",
+        async: false,
+        //data: machineID,
+        url: "/api/Details/LastShiftOEE",
+        data: { parammchID: machineID },
+        dataType: "json",
+        success: function (result) {
+           
+            return result;
+        },
+        error: function (err) {
+            console.log(err);
+        }
+    });
+
+ 
+
+    if (jqXHR.responseJSON[0] != null) {
+        var oeeresult = jqXHR.responseJSON[0].oeeInPercentage;
+        return oeeresult;
+    }
+    else {
+        return null;
+    }
+
+}

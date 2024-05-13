@@ -6,14 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DOwithStop.Models;
 
-public partial class AllMachine
+public partial class AllMachines
 {
     [Key]
     [Column("AllMachineID")]
     public int AllMachineId { get; set; }
 
     [Column("MachineID")]
-    public int MachineId { get; set; }
+    public int MachineID { get; set; }
 
     [Column("Target_Date", TypeName = "date")]
     public DateTime TargetDate { get; set; }

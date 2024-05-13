@@ -11,5 +11,7 @@ namespace DOwithStop.Models
         public  int F1_Actual { get; set; }
 
         public int F2_Actual { get; set; }
+
+       
     }
 }

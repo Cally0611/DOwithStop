@@ -21,6 +21,12 @@ namespace DOwithStop.Controllers
             return View();
         }
 
+        public IActionResult Index4KSwipe()
+        {
+            Log.Error("Starting Controller");
+            return View();
+        }
+
 
     }
 }

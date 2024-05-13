@@ -7,7 +7,8 @@
 
 html {
     position: relative;
-    min-height: 100%;
+/*    min-height: 100%;
+*/    height: auto;
     font-size: 14px;
 }
 
@@ -16,13 +17,12 @@ body {
     background-color: black;
     /*touch-action: none;*/
 }
-
 .cardcontainer {
     background-color: black;
     border: double #2f2f2f;
     border-width: 10px;
     width: 60rem;
-    height: 51.4rem;
+    height: 51rem;
 }
 
 
@@ -32,7 +32,7 @@ body {
     border-top: none;
     background-color: black;
     width: 60rem;
-    height: 51.4rem;
+    height: 51rem;
 }
 
 .cardcontainer-row3 {
@@ -41,16 +41,26 @@ body {
     border-top: none;
     background-color: black;
     width: 60rem;
-    height: 51.4rem;
+    height: 51rem;
 }
 
 .cardcontainer-row4 {
-    border: double#2f2f2f;
+    border: double #2f2f2f;
     border-width: 10px;
     border-top: none;
     background-color: black;
-    width: 20rem;
-    height: 53.5rem;
+    width: 60rem;
+    height: 51rem;
+}
+
+
+.cardcontainer-row5 {
+    border: double #2f2f2f;
+    border-width: 10px;
+    border-top: none;
+    background-color: black;
+    width: 60rem;
+    height: 20rem;
 }
 
 .actualtext {
@@ -80,14 +90,13 @@ body {
 }
 
 .targettext {
-
     font-size: 14rem;
     font-family: Arial;
     letter-spacing: 3px;
 }
 
 .actualtext-shiftstart {
-        color: grey;
+    color: grey;
 }
 
 .custcardbody {
@@ -101,10 +110,10 @@ body {
     height: 100%;
 }
 
-.pagefooter {
+/*.pagefooter {
     background-color: white;
     width: 200rem;
-}
+}*/
 
 .card-header {
     font-family: Arial;
@@ -169,7 +178,7 @@ body {
     width: 60vw;
 }
 
-?
+
 
 .timecontainer {
     text-align: center;
@@ -183,7 +192,6 @@ body {
     text-align: center;
     font-family: Arial;
     font-size: 4rem;
-  
 }
 
 .card-footer {
@@ -213,7 +221,7 @@ body {
     border-width: 10px;
     border-top: none;
     background-color: black;
-    height: 51.4rem;
+    height: 51rem;
 }
 
 .footerfinish2 {
@@ -222,28 +230,61 @@ body {
     border-top: none;
     border-left: none;
     background-color: black;
-    height: 51.4rem;
+    height: 51rem;
 }
 
 #showtime {
     color: white;
-    font-size: 200px;
-    padding-left: 140px;
-    padding-top: 180px;
+    font-size: 140px;
+    float: right;
+    padding-right: 100px;
 }
 
-img {
-    display: block;
-    justify-content: center;
-    max-width: 1300px;
+/*img {
+    max-width: 900px;
     max-height: 1300px;
     width: auto;
     height: auto;
-    padding-top: 210px;
-    padding-left: 180px;
+    float: right;
+    padding-top: 15px;
+    padding-right: 50px;
+}*/
+
+.oeetarget {
+    font-family: Arial;
+    color: white;
 }
 
-.oeetarget{
-    font-family : Arial;
-    font-color : white;
+.btn-secondary {
+    width: 300px;
+    font-family: Arial;
+    font-size: 10rem;
+}
+
+.btn-div {
+    padding-top: 10px;
+    padding-left: 680px;
+}
+
+
+#showtimev2 {
+    color: white;
+    font-size: 140px;
+/*    float: right;*/
+ /*   padding-left: 100px;*/
+    text-align:center;
+
+}
+
+#showlogo {
+    text-align: center;
+   
+
+}
+
+#imgv2 {
+    max-width: 1000px;
+    max-height: 1200px;
+    width: auto;
+    height: auto;
 }

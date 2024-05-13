@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
+	<SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
 	  <UserSecretsId>aefe1e3f-60d6-44e2-9668-c796951dc566</UserSecretsId>

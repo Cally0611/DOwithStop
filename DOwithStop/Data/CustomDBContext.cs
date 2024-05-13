@@ -1,6 +1,7 @@
 ﻿using DOwithStop.Models;
 
 
+
 //using DOwithStop.Models.Generated;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -15,10 +16,11 @@ namespace DOwithStop.Data
             _configuration = configuration;
         }
 
-        public override DbSet<AllMachine> AllMachines { get; set; }
-
+        public override DbSet<AllMachines> AllMachines { get; set; }
+      
         public override DbSet<Machine> Machines { get; set; }
 
+        public override DbSet<AllOee> AllOees { get; set; }
         public override DbSet<AllOeeCalculation> AllOeeCalculations { get; set; }
 
         public override DbSet<AllTargetOee> AllTargetOees { get; set; }
@@ -28,19 +30,22 @@ namespace DOwithStop.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AllMachine>(entity =>
+            modelBuilder.Entity<AllMachines>(entity =>
             {
                 entity.Ignore(x => x.JobName2);
                 entity.Ignore(x => x.OprTimeStamp);
                 entity.Ignore(x => x.SerialNo);
                 entity.Ignore(x => x.TypeofOpr);
-                entity.Ignore(x => x.ChildReasonCodeShift1);
-                entity.Ignore(x => x.ChildReasonCodeShift2);
+                //entity.Ignore(x => x.ChildReasonCodeShift1);
+                //entity.Ignore(x => x.ChildReasonCodeShift2);
                 entity.HasOne(d => d.Machine).WithMany(p => p.AllMachines)
                    .OnDelete(DeleteBehavior.ClientSetNull)
                    .HasConstraintName("FK_AllMachines_Machine");
 
             });
+
+            //modelBuilder.Entity<ChildAllMachine>(entity => entity.HasKey(x => x.AllMachineId));
+
 
             modelBuilder.Entity<StopReason>(entity => entity.HasNoKey());
 

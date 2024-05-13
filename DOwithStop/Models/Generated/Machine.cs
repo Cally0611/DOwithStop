@@ -18,5 +18,5 @@ public partial class Machine
     public string MachineName { get; set; } = null!;
 
     [InverseProperty("Machine")]
-    public virtual ICollection<AllMachine> AllMachines { get; } = new List<AllMachine>();
+    public virtual ICollection<AllMachines> AllMachines { get; } = new List<AllMachines>();
 }
